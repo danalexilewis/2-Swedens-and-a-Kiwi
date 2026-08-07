@@ -91,8 +91,16 @@ _To be added._
 
 ## Possible Chapter Use
 
-- What Made Them Rich Made Their Children Poor
-- The Inheritance Contract
+- `chapters/what-made-them-rich-made-their-children-poor.md`
+- `chapters/the-inheritance-contract.md`
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/what-made-them-rich-made-their-children-poor.md`
+feeds:: `chapters/the-inheritance-contract.md`
+mechanism:: `topics/taxing-activity-rewarding-scarcity.md`
+mechanism:: `topics/tax-preferences.md`
 
 ## Memorable Lines
 

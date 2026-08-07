@@ -89,8 +89,14 @@ _To be added._
 
 ## Possible Chapter Use
 
-- What Is Worth Keeping
+- `chapters/what-is-worth-keeping.md`
 - Closing movement of the book
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/what-is-worth-keeping.md`
+mechanism:: `topics/reflection-and-execution.md`
 
 ## Memorable Lines
 

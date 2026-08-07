@@ -77,7 +77,14 @@ _To be added._
 
 ## Possible Chapter Use
 
-- No Room for Children
+- `chapters/no-room-for-children.md`
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/no-room-for-children.md`
+mechanism:: `topics/housing-and-belonging.md`
+mechanism:: `topics/childhood-and-school-meals.md`
 
 ## Memorable Lines
 

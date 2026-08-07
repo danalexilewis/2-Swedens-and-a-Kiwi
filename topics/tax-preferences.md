@@ -96,12 +96,23 @@ Land tax may suit the book better than a blanket CGT: founding Eddy and selling 
 - `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`
 - Cross-link: `topics/taxing-activity-rewarding-scarcity.md`
 
+## Relationships
+
+mechanism:: `topics/taxing-activity-rewarding-scarcity.md`
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/equal-rules-unequal-rewards.md`
+feeds:: `chapters/what-made-them-rich-made-their-children-poor.md`
+feeds:: `chapters/the-inheritance-contract.md`
+feeds:: `chapters/capital-class-societies.md`
+texture:: `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`
+
 ## Possible Chapter Use
 
-- Equal Rules, Unequal Rewards
-- What Made Them Rich Made Their Children Poor (turn-to-win / inheritance-as-solution)
-- Capital-Class Societies
-- Cross-link: `taxing-activity-rewarding-scarcity` (land value vs productive activity)
+- `chapters/equal-rules-unequal-rewards.md`
+- `chapters/what-made-them-rich-made-their-children-poor.md` (turn-to-win / inheritance-as-solution)
+- `chapters/the-inheritance-contract.md`
+- `chapters/capital-class-societies.md`
+- Cross-link: `topics/taxing-activity-rewarding-scarcity.md` (land value vs productive activity)
 
 ## Memorable Lines
 

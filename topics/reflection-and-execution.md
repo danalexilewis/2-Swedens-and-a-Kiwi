@@ -124,13 +124,21 @@ _To be added. Framework material — not a citation binge._
 
 ## Possible Chapter Use
 
-- Management Without Correction
-- What Is Worth Keeping
-- Capital-Class Societies
-- Light touch in Youth Without a Ladder (structural difficulty as personal failure)
+- `chapters/management-without-correction.md`
+- `chapters/what-is-worth-keeping.md`
+- `chapters/capital-class-societies.md`
+- Light touch in `chapters/youth-without-a-ladder.md` (structural difficulty as personal failure)
 - Closing movement / book-level pairing
 
 Do **not** assume a standalone “Reflection and Execution” chapter yet — this is scaffolding for how Sweden and New Zealand meet.
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/management-without-correction.md`
+feeds:: `chapters/what-is-worth-keeping.md`
+feeds:: `chapters/capital-class-societies.md`
+feeds:: `chapters/youth-without-a-ladder.md`
 
 ## Memorable Lines
 

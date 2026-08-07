@@ -111,11 +111,11 @@ The argument is not that no one without inheritance ever buys. It is that owners
 
 ## Possible Chapter Use
 
-- What Made Them Rich Made Their Children Poor
-- The Cost of Membership
-- Youth Without a Ladder
-- What Is Worth Keeping
-- Capital-Class Societies (destination)
+- `chapters/what-made-them-rich-made-their-children-poor.md`
+- `chapters/the-cost-of-membership.md`
+- `chapters/youth-without-a-ladder.md`
+- `chapters/what-is-worth-keeping.md`
+- `chapters/capital-class-societies.md`
 
 ## Memorable Lines
 
@@ -132,3 +132,16 @@ The argument is not that no one without inheritance ever buys. It is that owners
 
 - `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md` (ladder / turn-to-win / family-home politics)
 - `inbox/transcripts/2026-08-05-poseidon-vs-private-rent.md`
+
+## Relationships
+
+mechanism:: `topics/taxing-activity-rewarding-scarcity.md`
+grounds:: `sources/notes/sweden-first-hand-tenure-allmannytta.md`
+texture:: `scenes/SCENE-BANK.md`
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/what-made-them-rich-made-their-children-poor.md`
+feeds:: `chapters/the-cost-of-membership.md`
+feeds:: `chapters/youth-without-a-ladder.md`
+feeds:: `chapters/what-is-worth-keeping.md`
+feeds:: `chapters/capital-class-societies.md`
+challenges:: `book/CLAIM-LEDGER.md`

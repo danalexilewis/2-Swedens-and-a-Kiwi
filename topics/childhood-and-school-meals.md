@@ -110,11 +110,17 @@ _To be added._ Official NZ poverty and education stats; Swedish Skolverket / mun
 
 ## Possible Chapter Use
 
-- **No Room for Children** (home chapter — fertility, housing, childhood security, school meals as public floor)
-- May surface lightly as keep/copy colour in What Is Worth Keeping; do not treat that as a second home
+- `chapters/no-room-for-children.md` (home — fertility, housing, childhood security, school meals as public floor)
+- Light keep/copy colour in `chapters/what-is-worth-keeping.md` — not a second home
 - Not a hijack of the current housing chapter draft
 
 Do **not** assume a standalone school-meals chapter. Do **not** turn this topic into a curriculum or pedagogy chapter.
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/no-room-for-children.md`
+feeds:: `chapters/what-is-worth-keeping.md`
 
 ## Memorable Lines
 

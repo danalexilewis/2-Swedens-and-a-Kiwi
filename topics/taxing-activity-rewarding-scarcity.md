@@ -147,12 +147,22 @@ Working mechanism label: **Taxing Activity, Rewarding Scarcity** — not assumed
 
 Cross-cutting use:
 
-- Equal Rules, Unequal Rewards
-- House or Company
-- The Cost of Membership
-- Capital-Class Societies
+- `chapters/equal-rules-unequal-rewards.md`
+- `chapters/house-or-company.md`
+- `chapters/the-cost-of-membership.md`
+- `chapters/capital-class-societies.md`
 
 Best as a central economic mechanism introduced earlier and returned to in later destination/policy material. Do not create a new final chapter without reviewing `book/CHAPTER-MAP.md`.
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/equal-rules-unequal-rewards.md`
+feeds:: `chapters/house-or-company.md`
+feeds:: `chapters/the-cost-of-membership.md`
+feeds:: `chapters/capital-class-societies.md`
+mechanism:: `topics/housing-and-belonging.md`
+mechanism:: `topics/tax-preferences.md`
 
 ## Memorable Lines
 

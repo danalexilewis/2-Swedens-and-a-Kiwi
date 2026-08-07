@@ -145,9 +145,18 @@ See `sources/SOURCE-INDEX.md` (S06–S09 stubs). Full PDFs/citation details belo
 
 ## Possible Chapter Use
 
-- **I'd Rather Deal with the Machine** (home chapter — title provisional; see `book/CHAPTER-MAP.md`)
-- Adjacent colour: Youth Without a Ladder; Management Without Correction
-- Institutions that negotiate digital power may still surface in What Is Worth Keeping without dissolving the home chapter
+- `chapters/id-rather-deal-with-the-machine.md` (home — title provisional)
+- Adjacent colour: `chapters/youth-without-a-ladder.md`; `chapters/management-without-correction.md`
+- Institutions that negotiate digital power may still surface in `chapters/what-is-worth-keeping.md` without dissolving the home chapter
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/id-rather-deal-with-the-machine.md`
+feeds:: `chapters/youth-without-a-ladder.md`
+feeds:: `chapters/management-without-correction.md`
+feeds:: `chapters/what-is-worth-keeping.md`
+mechanism:: `topics/politics-and-management.md`
 
 ## Memorable Lines
 

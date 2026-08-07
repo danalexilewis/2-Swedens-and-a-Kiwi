@@ -84,8 +84,9 @@ _To be added._
 
 ## Possible Chapter Use
 
-- Management Without Correction
-- What Made Them Rich Made Their Children Poor
+- `chapters/management-without-correction.md`
+- `chapters/what-made-them-rich-made-their-children-poor.md`
+- `chapters/id-rather-deal-with-the-machine.md`
 
 ## Memorable Lines
 
@@ -93,3 +94,12 @@ _To be added._
 - Some emergency decisions may have been reasonable. The failure was not correcting course.
 - New Zealand wastes institutional capacity through political reversal.
 - Sweden knows how to make systems durable. New Zealand knows how to make systems questionable.
+
+## Relationships
+
+mechanism:: `topics/machine-authority-and-management.md`
+mechanism:: `topics/reflection-and-execution.md`
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/management-without-correction.md`
+feeds:: `chapters/what-made-them-rich-made-their-children-poor.md`
+feeds:: `chapters/id-rather-deal-with-the-machine.md`

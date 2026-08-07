@@ -86,8 +86,16 @@ _To be added._
 
 ## Possible Chapter Use
 
-- Youth Without a Ladder
-- Exit as Rational Failure
+- `chapters/youth-without-a-ladder.md`
+- `chapters/exit-as-rational-failure.md`
+- `chapters/id-rather-deal-with-the-machine.md`
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/youth-without-a-ladder.md`
+feeds:: `chapters/exit-as-rational-failure.md`
+feeds:: `chapters/id-rather-deal-with-the-machine.md`
 
 ## Memorable Lines
 

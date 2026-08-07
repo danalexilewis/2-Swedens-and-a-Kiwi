@@ -84,8 +84,15 @@ _To be added._
 
 ## Possible Chapter Use
 
-- House or Company
-- Capital-Class Societies
+- `chapters/house-or-company.md`
+- `chapters/capital-class-societies.md`
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/house-or-company.md`
+feeds:: `chapters/capital-class-societies.md`
+mechanism:: `topics/taxing-activity-rewarding-scarcity.md`
 
 ## Memorable Lines
 

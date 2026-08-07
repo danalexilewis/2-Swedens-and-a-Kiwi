@@ -93,9 +93,15 @@ _To be added._
 
 ## Possible Chapter Use
 
-- The Cost of Membership
-- Management Without Correction
+- `chapters/the-cost-of-membership.md`
+- `chapters/management-without-correction.md`
 - Illustrative material for identifiable company/person cases (legal-review standard)
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/the-cost-of-membership.md`
+feeds:: `chapters/management-without-correction.md`
 
 ## Memorable Lines
 

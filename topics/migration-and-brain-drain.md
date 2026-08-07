@@ -93,7 +93,13 @@ _To be added._
 
 ## Possible Chapter Use
 
-- Exit as Rational Failure
+- `chapters/exit-as-rational-failure.md`
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/exit-as-rational-failure.md`
+mechanism:: `topics/youth-and-work.md`
 
 ## Memorable Lines
 
