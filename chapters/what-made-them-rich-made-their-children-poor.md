@@ -30,13 +30,17 @@ What made their children poor — poorer in the only sense that matters for adul
 
 The political genius of that asset game is that it can recruit some of the losers into defending it. They still hope to get their turn.
 
-Sweden already had a version of that alternative: secure, modest, first-hand rental through companies like Poseidon — profit, more building, tenants who could plan a life. It did not build enough of it.
+Sweden already had a version of that alternative: secure, modest, first-hand rental through companies like Poseidon — profit, more building, tenants who could plan a life. It did not build enough of it — or make enough of it accessible. Nationally there are about two million hyresrätter and roughly four-tenths of them in allmännytta, but metro queues of about seven to nine years against roughly one-percent vacancy show the failure is scarce *access*, not empty stock.
 
-New Zealand barely has the idea. It has a private rental market that functions, in some ways, better than Sweden’s private secondary market. What it does not have is a widely available small-box security model that lets young people stand on something solid without parental capital.
+*[fact — `sources/notes/sweden-rental-scale-allmannytta-queues.md`]*
+
+New Zealand barely has the idea. Young-adult owner-occupation collapsed (HES: about 65% of 25–34s in 1988 to about 35% in 2018) while the ownership ticket and rent burden both rose. What New Zealand’s big public landlord offers is mostly need-gated welfare housing — the wrong product for a Poseidon-like starter. Private renting remains provisional. Parental capital fills the gap.
+
+*[fact — ownership/costs/near-miss notes; interpretation on “wrong product”]*
 
 Both countries protected asset values and short-term stability. Neither treated secure non-owned housing as infrastructure for the next generation at the scale the problem required.
 
-*[interpretation / causal-argument — to be supported]*
+*[interpretation / causal-argument — now supported by facts #1–#5]*
 
 ---
 
@@ -58,31 +62,39 @@ Important precision: the day-one tenure right attaches to first-hand *hyresrätt
 
 The flats are not palaces. They do not need to be. They need to stay yours in the only way that matters when you do not own — they do not vanish because an amateur landlord changes their mind, or because an intermediary’s incentives point the wrong way.
 
-Sweden’s failure here is not that the model is wrong. The failure is scarcity. Not enough accessible first-hand stock. Queues and rationing turn a good institution into a lottery, and newcomers without the right contract fall into the private residual. Having the capability is not the same as scaling it.
+Sweden’s failure here is not that the model is wrong. The failure is scarcity of *access*. About 2.05 million hyresrätter exist; allmännytta holds about 41% of them (~846,000) and only about 16% of all dwellings. Immediately available vacancy was about 1.3% in September 2024. Stockholm’s queue averaged about nine years for ordinary first-hand contracts in 2025; Göteborg’s Boplats about seven. Queues and rationing turn a good institution into a lottery, and newcomers without the right contract fall into the private residual. Göteborg / Poseidon is a high-density local version of the model (Storgöteborg about half of local rental in allmännytta) — denser than the national average, not proof Sweden already solved it everywhere. Having the capability is not the same as scaling accessible supply.
 
-*[interpretation — scale still fact #4]*
+*[fact — `sources/notes/sweden-rental-scale-allmannytta-queues.md`]*
 
 ---
 
 ## New Zealand mechanism
 
-New Zealand teaches a simple wealth strategy: work, save a deposit, buy, endure the mortgage, let the house appreciate, trade up, arrive at retirement with a valuable tax-advantaged asset. “Get on the property ladder.” When prices outrun wages, that lesson becomes an inheritance lesson. Parental help decides who gets a foothold. Renting is widely treated as temporary failure on the way to a mortgage, not as a legitimate foundation for adult effort.
+New Zealand teaches a simple wealth strategy: work, save a deposit, buy, endure the mortgage, let the house appreciate, trade up, arrive at retirement with a valuable tax-advantaged asset. “Get on the property ladder.” The entry ticket rose after about 2003; Auckland sat near 11.5× median household disposable income by 2020. Renters’ housing-cost overburden stepped up in the 1990s and stayed high. When prices outrun wages, the ladder lesson becomes an inheritance lesson. Parental help decides who gets a foothold. Renting is widely treated as temporary failure on the way to a mortgage, not as a legitimate foundation for adult effort.
+
+*[fact — `sources/notes/nz-sweden-housing-cost-trajectories.md`, `sources/notes/nz-sweden-ownership-cohorts-parental-help.md`]*
+
+Map Sweden’s triad against New Zealand and the missing cell appears. Sweden has äganderätt, bostadsrätt, and **hyresrätt** — secure first-hand rent as a normal adult foundation. New Zealand’s lived map is closer to own-or-trust, insecure private rent, need-gated public rent, or stay with parents. Young-adult ownership collapsed (about 65% → 35% for 25–34s, 1988–2018). That is not a preference story alone.
+
+*[fact + interpretation — tenure map]*
 
 The politics of that ladder matter. People hurt by housing inflation can still defend the mechanism because their imagined solution is eventually joining the winning side — “I don’t want to lose my turn to win.” Treat that as interpretation, not polling proof. The darker version: work hard, rent, wait for Mum and Dad to die, inherit, and finally acquire security. An adult child excluded by house prices can end up defending the untaxed parental gains that caused much of their exclusion.
 
-The country has tenancy law and dispute forums. The cost of landlord failure is still too low. Agents and owners get away with behaviour that would be rarer if failure hurt. That is a real problem.
+The country has tenancy law and dispute forums. The cost of landlord failure is still too low. From 2025, landlords can again end periodic tenancies with ninety days’ notice without a specific ground — a long way from Swedish day-one security of tenure. That is a real problem.
 
-It is not the deepest problem. The deepest problem is the missing institution: secure modest rental at scale — something Poseidon-like in function, not necessarily in name — so that youth can study, save, and take risk without waiting for the Bank of Mum and Dad.
+It is not the deepest problem. The deepest problem is the missing institution: secure modest rental at scale — something Poseidon-like in *function*, not necessarily in name.
 
-*[interpretation / proposal-adjacent]*
+What New Zealand already has at national scale — Kāinga Ora, IRRS, community housing providers — is mostly **need-gated welfare housing**. Serious housing need. Income and asset tests. A register that triage by urgency. That is a necessary product for some people. It is the **wrong product** for ordinary young people and middle-income non-owners who need a secure place to start without proving residual crisis. Social housing is also thin versus peers; eligibility design is still the load-bearing claim. Wellington’s Te Kāinga points at the right product class — long-term stable leases, not IRRS — at the wrong scale: hundreds of apartments in one city against Poseidon’s tens of thousands.
+
+*[fact — `sources/notes/nz-public-rental-near-misses-wrong-product.md`; proposal-adjacent]*
 
 ---
 
 ## Shared outcome
 
-Housing security becomes increasingly inherited. Work still pays for life. Capital decides whether you can build security. The system became so unequal that inheritance started looking like the solution to the inequality. Countries that let ownership compound without building strong non-owned alternatives write off the independence of people without family balance sheets — and can still recruit the excluded into waiting for their turn to win.
+Housing security becomes increasingly inherited. Work still pays for life. Capital decides whether you can build security. Young cohorts own less; parental help and co-residence fill gaps that wages used to cover; the ownership ticket and (in New Zealand) rent overburden both rose. The system became so unequal that inheritance started looking like the solution to the inequality. Countries that let ownership compound without building strong non-owned alternatives write off the independence of people without family balance sheets — and can still recruit the excluded into waiting for their turn to win.
 
-*[interpretation — load-bearing stats still needed]*
+*[interpretation — supported by facts #1–#2; see ownership and cost source notes]*
 
 ---
 
@@ -130,12 +142,12 @@ Copy it. Expand it. Or keep pretending ownership alone will save the next genera
 
 ---
 
-## Five facts still needed (working)
+## Five load-bearing facts (sourced)
 
-1. Ownership / parental-help patterns by cohort in NZ and Sweden  
-2. Price-to-income or rent-burden trajectory that shows membership costs rising  
-3. ~~What Poseidon / allmännytta first-hand tenure actually guarantees~~ — **done** (`sources/notes/sweden-first-hand-tenure-allmannytta.md`). Short answer: first-hand *hyresrätt* = day-one *besittningsskydd* + constrained rent-setting under JB 12 kap.; allmännytta/Poseidon = municipal company form that can deliver that tenure at scale with a housing-supply mission and mostly reinvested surplus. Do not claim tenure law is exclusive to municipal companies.  
-4. Scale: how much of Swedish rental stock is this secure type vs private secondary  
-5. NZ near-misses (Kāinga Ora, community housing, etc.) — where they fall short of this function  
+1. **Ownership / parental help by cohort** — **done** (`sources/notes/nz-sweden-ownership-cohorts-parental-help.md`). NZ young ownership collapse; SE youth in hyresrätt/bostadsrätt; parental help surveys; tenure map → NZ lacks hyresrätt-like cell.
+2. **Cost trajectories (both lenses)** — **done** (`sources/notes/nz-sweden-housing-cost-trajectories.md`). Entry ticket + monthly burden; NZ break ~2003 / rent overburden 1990s; SE PTI peak 2021 / flat hyresrätt cost share.
+3. **First-hand / allmännytta guarantees** — **done** (`sources/notes/sweden-first-hand-tenure-allmannytta.md`).
+4. **Swedish rental scale / queues** — **done** (`sources/notes/sweden-rental-scale-allmannytta-queues.md`). ~2.05m hyresrätter; ~41% allmännytta; queues ~7–9 years vs 1.3% vacancy.
+5. **NZ near-misses (wrong product)** — **done** (`sources/notes/nz-public-rental-near-misses-wrong-product.md`). IRRS/KO = need-gated welfare; Te Kāinga = right product, wrong scale. Halls→gauntlet youth path parked for *Youth Without a Ladder*.
 
-Do not invent citations. Next research priority after mechanism polish: fact #4 or #5 depending on which spine paragraph needs a number first.
+Research scratch: `.tmp/subs/20260807-housing-facts/` (do not commit as authority — source notes are the archive).

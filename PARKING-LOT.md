@@ -61,6 +61,16 @@ Full Tax Working Group design catalogue (inflation, realisation, lock-in, losses
 
 **Source:** `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`
 
+### University halls → private-rental gauntlet (youth start path) — 2026-08-07
+
+Author interpretation: university halls are a beautiful bubble that teaches little about civil behaviour or societal participation; after halls, a gauntlet of weak private rentals with agents/landlords holding too much power; no security further marginalises the young.
+
+**Why parked:** Gate 2 (subs housing-facts): keep *What Made Them Rich Made Their Children Poor* on the intergenerational / wrong-product institutional spine. Halls path belongs in *Youth Without a Ladder*. Institutional near-miss facts (IRRS wrong product; Te Kāinga tiny right product) **were** folded into the current chapter.
+
+**Topics / chapters:** `youth-and-work`, `housing-and-belonging`; Youth Without a Ladder.
+
+**Source:** `.tmp/subs/20260807-housing-facts/w2-wrong-product.md` (interpretation block); S14 for institutional facts only.
+
 ### Machine authority / algorithmic management — 2026-08-07
 
 Attraction to machine authority because human authority feels intolerable; platform/gig flexibility vs risk transfer (Benji seed); Anderson / Rosenblat / Prassl / NZ Otago / ALGOSH / Selberg / Hidalgo / Plurality / Noveck reading queue; “humiliation without exploitation” tension; AI-in-government sharpened to “meaningful role no longer absurd.” Routed into new topic, claim ledger, key concepts, scene seed, legal care, source stubs, open questions.

@@ -10,7 +10,7 @@ What Made Them Rich Made Their Children Poor.
 
 ## Current Task
 
-Identify or source the remaining load-bearing facts for the chapter (facts #1, #2, #4, #5). Swedish mechanism and fact #3 are done.
+Chapter load-bearing facts #1–#5 are sourced. Next: prose pass to integrate sourced numbers smoothly (cut any double-statement), then steelman counterargument with queue/scarcity facts already in hand.
 
 ## Definition of Done
 
@@ -30,9 +30,10 @@ The chapter has:
 - Proposal locked: NZ should copy; Sweden should expand
 - Rough beginning-to-end draft exists: `chapters/what-made-them-rich-made-their-children-poor.md`
 - Private-landlord trilogy stays parked
-- 2026-08-07: CGT / turn-to-win transcript processed — NZ mechanism and shared outcome now carry property-ladder, turn-to-win, and inheritance-as-solution formulations (see `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`)
-- 2026-08-07: Reflection ↔ Execution / Shared Failure-as-method ingested and parked — book scaffolding only; does not change the active chapter task (see `inbox/transcripts/2026-08-07-reflection-and-execution.md`, `topics/reflection-and-execution.md`)
-- 2026-08-07: Swedish mechanism tightened; chapter fact #3 sourced (`sources/notes/sweden-first-hand-tenure-allmannytta.md`) — first-hand = day-one besittningsskydd; allmännytta/Poseidon = scale vehicle; scarcity still the failure claim
+- 2026-08-07: CGT / turn-to-win transcript processed
+- 2026-08-07: Reflection ↔ Execution parked
+- 2026-08-07: Swedish mechanism tightened; fact #3 sourced (S10)
+- 2026-08-07: Subs double-diamond sourced facts #1, #2, #4, #5 → S11–S14; chapter mechanisms updated; halls→gauntlet parked for Youth Without a Ladder (Gate 2: b)
 
 ## Explicitly Excluded
 
@@ -45,3 +46,4 @@ The chapter has:
 - Drafting chapters other than the current one
 - Opening on the later private-market disputes
 - Full CGT design treatise / Tax Working Group deep-dive (parked; steelman queue only)
+- University halls critique in this chapter (parked — Gate 2: b)

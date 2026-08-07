@@ -15,9 +15,12 @@ Research and framing questions that are not yet answered. Do not pretend they ar
 - How much of income goes toward housing?
 - What is the relationship between city property and rural property?
 - Are people being encouraged to treat housing as retirement infrastructure?
-- What is the history and tenure model of Poseidon housing in Guldheden (Göteborg)? (tenure law + Poseidon institutional status sourced in S10; Guldheden development history still open)
-- ~~What exactly does a Swedish förstahandskontrakt / allmännytta tenancy guarantee versus private secondary arrangements?~~ — answered in `sources/notes/sweden-first-hand-tenure-allmannytta.md` (2026-08-07)
-- How much of Swedish rental stock is secure first-hand / allmännytta vs private residual? (chapter fact #4)
+- What is the history of Poseidon housing in Guldheden (Göteborg)? (tenure law + Poseidon institutional status + national/local scale sourced in S10/S13; Guldheden development history still open)
+- ~~What exactly does a Swedish förstahandskontrakt / allmännytta tenancy guarantee versus private secondary arrangements?~~ — S10
+- ~~How much of Swedish rental stock is secure first-hand / allmännytta vs private residual?~~ — S13 (queues = access scarcity; no national andrahand stock count)
+- ~~NZ ownership / parental help by cohort; SE tenure triad map~~ — S11
+- ~~Price-to-income / rent-burden both lenses~~ — S12
+- ~~NZ near-misses vs Poseidon function~~ — S14 (wrong product; Te Kāinga right product wrong scale)
 - What are the formal terms of major Swedish rental intermediary platforms (confirm names; fee and late-payment penalty structures)?
 - How do NZ Tenancy Tribunal remedies and typical outcomes compare on landlord failure cost?
 - Does New Zealand have a tenancy-union analogue with real enforcement teeth?
