@@ -10,8 +10,10 @@
 	} from '@xyflow/svelte';
 	import FileNode from '$lib/FileNode.svelte';
 	import FileDialog from '$lib/FileDialog.svelte';
+	import CardGallery from '$lib/CardGallery.svelte';
 	import RingZones from '$lib/RingZones.svelte';
 	import HierarchyBands from '$lib/HierarchyBands.svelte';
+	import FitOnMount from '$lib/FitOnMount.svelte';
 	import { layoutRing, layoutHierarchy, type ViewMode } from '$lib/layout';
 	import { folderColor } from '$lib/colors';
 	import {
@@ -20,6 +22,8 @@
 		type FocusTarget,
 		type FocusSets
 	} from '$lib/focus';
+	import { ringFileOrder, adjacentOnRing } from '$lib/ringNavigate';
+	import type { DialogNavigation } from '$lib/ringNavigate';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -30,6 +34,7 @@
 
 	let filter = $state('');
 	let readingId = $state<string | null>(null);
+	let galleryOpen = $state(false);
 	let viewMode = $state<ViewMode>('radial');
 	let pinned = $state<FocusTarget>(null);
 	let hovered = $state<FocusTarget>(null);
@@ -81,6 +86,8 @@
 				id: file.id,
 				type: 'file' as const,
 				position: file.position,
+				width: 110,
+				height: 28,
 				data: {
 					title: file.title,
 					path: file.path,
@@ -122,12 +129,16 @@
 		});
 	}
 
-	let nodes = $state.raw<Node[]>([]);
-	let edges = $state.raw<Edge[]>([]);
+	// Seed with a full layout so fitView does not run against an empty graph.
+	let nodes = $state.raw<Node[]>(
+		buildNodes('', resolveFocus(null, data.files, data.edges))
+	);
+	let edges = $state.raw<Edge[]>(
+		buildEdges(resolveFocus(null, data.files, data.edges))
+	);
 
 	$effect(() => {
 		const focus = focusSets;
-		// touch viewMode / positionedFiles
 		void viewMode;
 		void positionedFiles;
 		nodes = buildNodes(filter, focus);
@@ -172,6 +183,76 @@
 		readingId = null;
 	}
 
+	function filePassesFilter(file: {
+		path: string;
+		title: string;
+		folder: string;
+	}) {
+		const query = filter.trim().toLowerCase();
+		if (!query) return true;
+		return (
+			file.path.toLowerCase().includes(query) ||
+			file.title.toLowerCase().includes(query) ||
+			file.folder.toLowerCase().includes(query)
+		);
+	}
+
+	function isTypingTarget(target: EventTarget | null) {
+		if (!(target instanceof HTMLElement)) return false;
+		const tag = target.tagName;
+		if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return true;
+		return target.isContentEditable;
+	}
+
+	function onGlobalKeydown(e: KeyboardEvent) {
+		if (e.key === 'Escape') {
+			if (readingId) return;
+			if (galleryOpen) {
+				e.preventDefault();
+				galleryOpen = false;
+			}
+			return;
+		}
+
+		if (e.key !== ' ' && e.code !== 'Space') return;
+		if (isTypingTarget(e.target)) return;
+		if (e.repeat) return;
+		e.preventDefault();
+		galleryOpen = !galleryOpen;
+	}
+
+	function onGallerySelect(id: string) {
+		readingId = id;
+		pinned = { kind: 'node', id };
+	}
+
+	const ringNavOrder = $derived(
+		viewMode === 'radial'
+			? ringFileOrder(ring.files.filter((f) => filePassesFilter(f)))
+			: []
+	);
+
+	const dialogNavigation = $derived.by((): DialogNavigation | null => {
+		if (viewMode !== 'radial' || !readingId || ringNavOrder.length < 2)
+			return null;
+		const index = ringNavOrder.indexOf(readingId);
+		if (index === -1) return null;
+		return {
+			index,
+			total: ringNavOrder.length,
+			onPrev: () => navigateRing('anticlockwise'),
+			onNext: () => navigateRing('clockwise')
+		};
+	});
+
+	function navigateRing(direction: 'clockwise' | 'anticlockwise') {
+		if (!readingId || ringNavOrder.length < 2) return;
+		const nextId = adjacentOnRing(ringNavOrder, readingId, direction);
+		if (!nextId) return;
+		readingId = nextId;
+		pinned = { kind: 'node', id: nextId };
+	}
+
 	function onZoneHover(folder: string | null) {
 		hovered = folder ? { kind: 'folder', id: folder } : null;
 	}
@@ -193,20 +274,12 @@
 		viewMode = mode;
 		pinned = null;
 		hovered = null;
+		// Rebuild for the new layout before {#key viewMode} remounts SvelteFlow,
+		// so fitView frames the whole graph instead of the previous layout.
+		const focus = resolveFocus(null, data.files, data.edges);
+		nodes = buildNodes(filter, focus);
+		edges = buildEdges(focus);
 	}
-
-	const fitViewOptions = $derived(
-		viewMode === 'radial'
-			? { padding: 0.04 }
-			: {
-					padding: 0.2,
-					maxZoom: 1.15,
-					// Start zoomed in on the chapter band, not the whole stack
-					nodes: hierarchy.files
-						.filter((f) => f.folder === 'chapters')
-						.map((f) => ({ id: f.id }))
-				}
-	);
 </script>
 
 <div class="shell">
@@ -215,7 +288,7 @@
 			<strong>Two Swedens explorer</strong>
 			<span class="count"
 				>{data.files.length} files · {data.edges.length} links · hover ring / click
-				node to pin</span
+				node to pin · Space for cards</span
 			>
 		</div>
 
@@ -262,8 +335,6 @@
 				bind:nodes
 				bind:edges
 				{nodeTypes}
-				fitView
-				{fitViewOptions}
 				colorMode="dark"
 				nodesDraggable={false}
 				nodesConnectable={false}
@@ -291,6 +362,7 @@
 				{:else}
 					<HierarchyBands layout={hierarchy} />
 				{/if}
+				<FitOnMount worldPadding={viewMode === 'radial' ? 80 : 40} />
 				<Controls />
 				<MiniMap
 					nodeColor={(n) =>
@@ -307,7 +379,20 @@
 	</div>
 </div>
 
-<FileDialog file={readingFile} onclose={closeDialog} />
+<svelte:window onkeydown={onGlobalKeydown} />
+
+<CardGallery
+	open={galleryOpen}
+	files={data.files}
+	onselect={onGallerySelect}
+	onclose={() => (galleryOpen = false)}
+/>
+
+<FileDialog
+	file={readingFile}
+	navigation={dialogNavigation}
+	onclose={closeDialog}
+/>
 
 <style>
 	.shell {
