@@ -45,6 +45,8 @@ Author reading from lived experience: New Zealand’s private rental market func
 
 Housing and related assets rise faster than wages; existing owners gain wealth and borrowing power; non-owners pay owners for access; family help becomes decisive.
 
+Related land-value mechanism: public investment and community activity raise location value; owners capture appreciation; renters help fund the city without receiving the increase in the price of belonging. See `topics/taxing-activity-rewarding-scarcity.md`.
+
 *(causal-argument — to be supported)*
 
 ## Who Benefits?
@@ -115,3 +117,4 @@ _To be added after source notes are created._
 - The cost of economic membership rose while consumer inflation was managed.
 - Even though we were renting, it felt like ours.
 - Small boxes that do not get pulled out from under you.
+- The renter helps pay for the city. The landowner receives the increase in the price of belonging to it.

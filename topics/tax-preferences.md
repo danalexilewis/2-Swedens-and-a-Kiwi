@@ -15,12 +15,15 @@ Formal equality hides unequal capacity. Tax rules that look fair on paper can am
 ## New Zealand
 
 - Property gains treatment: New Zealand does not apply a comprehensive capital-gains tax to ordinary long-held housing gains *(fact — needs reference)*
+- Some sale profits are taxed under intention, bright-line, dealer, developer, or related rules — do **not** say every property gain is untaxed *(fact — needs reference)*
+- Council rates tax property; rates are not the same as a general recurring tax on unreclaimed increases in unimproved land value *(interpretation — needs verification)* — see `topics/taxing-activity-rewarding-scarcity.md`
 - Other capital vs labour treatment to be mapped carefully
 
 ## Sweden
 
 - ISK and related capital treatment *(fact — needs precise rates/rules and sources)*
 - How benefits scale with capital already held
+- Land / building / municipal property-fee treatment — open research; LVT does not by itself address ISK concentration
 
 ## Important Differences
 
@@ -29,6 +32,8 @@ The instruments differ (property-gain treatment vs ISK and related vehicles). Do
 ## Common Mechanism
 
 Equal access to a tax advantage does not produce equal benefit when access to capital is radically unequal.
+
+Related mechanism: the system observes and taxes productive activity more consistently than it reclaims society-created land value. See `topics/taxing-activity-rewarding-scarcity.md`.
 
 The issue is not necessarily that these mechanisms exist.
 
@@ -79,9 +84,11 @@ _To be added._
 
 - Equal Rules, Unequal Rewards
 - Capital-Class Societies
+- Cross-link: `taxing-activity-rewarding-scarcity` (land value vs productive activity)
 
 ## Memorable Lines
 
 - Equal access to a tax advantage does not produce equal benefit when access to capital is radically unequal.
 - Formal equality hides unequal capacity.
 - The benefit is insufficiently capped.
+- We have spent decades taxing activity and rewarding scarcity. Then we wonder why our houses outperform our businesses.

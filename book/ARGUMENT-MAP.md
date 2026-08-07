@@ -14,7 +14,7 @@ Sweden and New Zealand protected incumbent asset values and short-term stability
 
 1. Housing scarcity
 2. Credit and monetary policy
-3. Tax-preferred asset accumulation
+3. Tax-preferred asset accumulation — including a system better at taxing productive activity than at reclaiming society-created land value (see `topics/taxing-activity-rewarding-scarcity.md`)
 4. Inheritance
 5. Political power of incumbent owners
 6. Weak alternatives for building security
@@ -56,6 +56,24 @@ Young people leave for places with better opportunities
 Political power becomes increasingly aligned with older asset owners
             ↓
 The system becomes even harder to reform
+```
+
+Related land-value cascade (working argument — see Georgism handover):
+
+```
+Society creates infrastructure and opportunity
+            ↓
+Desirable locations become more valuable
+            ↓
+Existing owners gain equity
+            ↓
+Equity provides collateral
+            ↓
+Collateral provides access to more credit
+            ↓
+Owners acquire more assets
+            ↓
+The advantage passes to the next generation
 ```
 
 These are working arguments and predictions. Do not treat every causal connection as verified fact.

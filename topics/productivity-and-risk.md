@@ -37,6 +37,8 @@ Startup ecosystems, capital markets, and employment protection differ. The share
 
 Mortgage and housing systems reward stable wages; entrepreneurial income looks like risk; families without capital cannot tolerate uncertain income; fewer businesses are founded; productivity suffers.
 
+Working proposition (research needed): a tax system that rewards land appreciation more reliably than business investment encourages capital to flow toward existing property rather than productive enterprise. See `topics/taxing-activity-rewarding-scarcity.md`.
+
 *(causal-argument)*
 
 ## Who Benefits?
@@ -90,3 +92,4 @@ _To be added._
 - Societies cannot demand innovation while making personal security dependent on avoiding risk.
 - How many businesses never exist because their potential founders cannot risk losing access to housing?
 - House or company — a real choice, not a slogan.
+- We have spent decades taxing activity and rewarding scarcity. Then we wonder why our houses outperform our businesses.

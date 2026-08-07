@@ -37,6 +37,8 @@ Inheritance tax history, family norms, and housing tenure differ. The shared pat
 
 Older cohorts received both the social contract of their era and capital gains. Younger cohorts face higher entry costs and wait for transfers that arrive late and unequally.
 
+One land-value path into that pattern: society creates infrastructure → locations rise → owners gain equity → equity becomes collateral → more assets → advantage passes to the next generation. See `topics/taxing-activity-rewarding-scarcity.md`.
+
 *(interpretation / causal-argument)*
 
 ## Who Benefits?
