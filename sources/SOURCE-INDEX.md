@@ -41,13 +41,19 @@ Anything surprising or worth following up.
 | S08 | Swedish algorithmic management and platform labour (ALGOSH; Selberg) | Sweden | machine-authority-and-management, politics-and-management | `notes/sweden-algorithmic-management.md` |
 | S09 | AI democracy — surveys and proposals (IE; DE/UK studies; Hidalgo; Plurality; Noveck) | International | machine-authority-and-management, politics-and-management | `notes/ai-democracy-surveys-and-proposals.md` |
 | S10 | Swedish first-hand tenure and allmännytta (Poseidon) | Sweden | housing-and-belonging, institutions-worth-keeping | `notes/sweden-first-hand-tenure-allmannytta.md` |
+| S11 | NZ & Sweden ownership / cohorts / parental help | Both | housing-and-belonging, inheritance-and-generations | `notes/nz-sweden-ownership-cohorts-parental-help.md` |
+| S12 | NZ & Sweden housing cost trajectories (both lenses) | Both | housing-and-belonging | `notes/nz-sweden-housing-cost-trajectories.md` |
+| S13 | Swedish rental scale — allmännytta, queues, vacancy | Sweden | housing-and-belonging, institutions-worth-keeping | `notes/sweden-rental-scale-allmannytta-queues.md` |
+| S14 | NZ public rental near-misses (wrong product) | New Zealand | housing-and-belonging, institutions-worth-keeping | `notes/nz-public-rental-near-misses-wrong-product.md` |
 
 ## Priority facts still needing sources
 
-From the first processing pass — load-bearing items, not a research binge:
+**Chapter five facts (#1–#5) for *What Made Them Rich Made Their Children Poor* — sourced 2026-08-07 (S10–S14).** Still open for later chapters / other claims:
 
-1. Homeownership by age/cohort — NZ and Sweden
-2. Housing costs vs wages over time — both
+From the first processing pass — remaining load-bearing items, not a research binge:
+
+1. ~~Homeownership by age/cohort — NZ and Sweden~~ — **S11** (chapter fact #1)
+2. ~~Housing costs vs wages over time — both~~ — **S12** (chapter fact #2)
 3. NZ treatment of long-held housing gains
 4. Swedish ISK and related capital rules
 5. Wealth distribution by age/household — both
@@ -55,7 +61,7 @@ From the first processing pass — load-bearing items, not a research binge:
 7. NZ–Australia migration by age/skill
 8. Swedish emigration patterns (test brain-drain claim; do not assume)
 
-**Sourced for chapter fact #3 (2026-08-07):** Swedish first-hand tenure vs andrahand / private letting; Allbolagen; Poseidon institutional status — `notes/sweden-first-hand-tenure-allmannytta.md` (S10). Still open: national scale of secure stock (chapter fact #4); Guldheden development history.
+**Also sourced:** S10 tenure guarantees; S13 rental scale/queues; S14 NZ near-misses / wrong product.
 
 From Georgism / LVT handover (2026-08-07) — verify before publication; do not invent:
 
