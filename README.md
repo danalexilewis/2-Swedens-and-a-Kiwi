@@ -24,7 +24,7 @@ It is not a database, a citation manager, investigative-journalism platform, or 
 | `VOICE.md` | Tone, grammar, and writing rules |
 | `EVIDENCE-STANDARD.md` | What needs references and what does not |
 | `inbox/` | Unprocessed transcripts, notes, documents, links |
-| `book/` | Core thesis, argument map, claim ledger, chapter map |
+| `book/` | Core thesis, argument map, claim ledger, chapter map, [relationship types](book/RELATION-TYPES.md) |
 | `topics/` | Comparative topic files (Sweden ↔ New Zealand) |
 | `scenes/` | Lived scenes for chapter openings |
 | `chapters/` | Draft chapters |
