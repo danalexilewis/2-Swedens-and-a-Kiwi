@@ -480,7 +480,8 @@
 			<strong>Two Swedens explorer</strong>
 			<span class="count">
 				{#if hiddenFolders.size > 0}
-					{visibleFiles.length} of {data.files.length} files · {visibleEdges.length} links
+					{visibleFiles.length} of {data.files.length} files · {visibleEdges.length}
+					links
 				{:else}
 					{data.files.length} files · {data.edges.length} links
 				{/if}
@@ -572,9 +573,7 @@
 								stroke-width="2"
 								aria-hidden="true"
 							>
-								<path
-									d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
-								/>
+								<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
 								<circle cx="12" cy="12" r="3" />
 							</svg>
 						{:else}
