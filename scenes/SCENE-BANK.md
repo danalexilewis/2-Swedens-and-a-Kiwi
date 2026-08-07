@@ -83,6 +83,20 @@ Met Mark on Styrsö — Irish, worked as cook at a local school. Told me he fed 
 
 ---
 
+## Scene: Benji — work when capacity allows
+
+**Claim type:** personal-experience (thin facts so far)  
+**Topics:** `machine-authority-and-management`, `youth-and-work`  
+**Possible chapters:** Youth Without a Ladder; Management Without Correction  
+**Source:** `inbox/transcripts/2026-08-07-machine-authority-and-management.md`  
+**Legal care:** `legal-review/benji-platform-work.md`
+
+Brother Benji and platform / Uber-style work. Archive seed only — do not invent medical detail, platform outcomes, or timeline until the author records them. Research literature on gig work and disability reports autonomy and flexible hours as real advantages alongside insecurity, discrimination, missing benefits, and accessibility barriers.
+
+**Force to preserve:** Not merely “Uber didn't work for my brother.” Platform work contains a genuinely emancipatory idea for people whose capacities don't fit a conventional nine-to-five — and execution can turn that freedom into precarity or algorithmic control. Ask why we can't keep “work when your capacity allows” without also requiring “carry all the economic risk yourself.”
+
+---
+
 ## Scene ideas still needed
 
 - Encounter with formal tax equality and unequal benefit
@@ -91,6 +105,10 @@ Met Mark on Styrsö — Irish, worked as cook at a local school. Told me he fed 
 - **Builder vs empty prime site:** productive chain generating wages, GST-relevant supplies, and taxable income versus underused valuable land appreciating as the neighbourhood improves (conceptual — not yet a lived scene). Topics: `taxing-activity-rewarding-scarcity`, `tax-preferences`. Chapters: Equal Rules, Unequal Rewards; House or Company. Source: `inbox/transcripts/2026-08-07-taxing-activity-rewarding-scarcity.md`
 - **Railway station land windfall:** public pays for a station; nearby land jumps; workers taxed more consistently than the capitalized land gain is reclaimed. Topics: `taxing-activity-rewarding-scarcity`, `housing-and-belonging`. Chapters: The Cost of Membership; Equal Rules, Unequal Rewards
 - **Three houses vs one apartment block:** same underlying land value, very different homes provided — land tax per home falls with intensity of use (illustrative Georgist incentive, not a finished policy scene). Topics: `taxing-activity-rewarding-scarcity`, `housing-and-belonging`
+- **Casino queue / turn-to-win:** promotion for those inside before 1995; five-kilometre queue outside; people waiting twenty years say don’t cancel it. Topics: `tax-preferences`, `housing-and-belonging`, `inheritance-and-generations`. Chapters: What Made Them Rich Made Their Children Poor; Equal Rules, Unequal Rewards. Source: `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`
+- **Two generations, one house:** 65-year-old bought at ~$180k, now ~$1.4m untaxed appreciation as annual income; 32-year-old child priced out, still hoping for “their turn,” resisting CGT. Topics: `inheritance-and-generations`, `housing-and-belonging`. Chapter: What Made Them Rich Made Their Children Poor
 - Hungry kids / packed lunches / NZ school without a kitchen — lived NZ contrast if author has one (not yet supplied)
+- A moment of preferring the machine / system over a humiliating human manager (if author has a lived scene beyond Benji)
+- Encounter with a remote union / bureaucracy that surrounds power but feels unreachable to the individual
 
 _Add scenes from future transcripts without rewriting them into polished prose unless asked._

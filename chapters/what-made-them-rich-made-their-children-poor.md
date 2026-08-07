@@ -28,6 +28,8 @@ What made older cohorts rich was not only work. Housing and related assets rose.
 
 What made their children poor — poorer in the only sense that matters for adult membership — is that the same trajectory locked security behind ownership and inheritance, while the alternative path was left too small.
 
+The political genius of that asset game is that it can recruit some of the losers into defending it. They still hope to get their turn.
+
 Sweden already had a version of that alternative: secure, modest, first-hand rental through companies like Poseidon — profit, more building, tenants who could plan a life. It did not build enough of it.
 
 New Zealand barely has the idea. It has a private rental market that functions, in some ways, better than Sweden’s private secondary market. What it does not have is a widely available small-box security model that lets young people stand on something solid without parental capital.
@@ -40,19 +42,33 @@ Both countries protected asset values and short-term stability. Neither treated 
 
 ## Swedish mechanism
 
-Sweden’s housing story is not one market. First-hand tenure in the allmännytta / municipal-company world can feel like belonging. Private secondary renting is another country.
+Sweden’s housing story is not one market. It is at least two.
 
-The Poseidon-type model is simple: secure rent; the company makes a profit; profit builds more apartments. The flats are not palaces. They do not need to be. They need to stay yours in the only way that matters when you do not own — they do not vanish because an amateur landlord changes their mind, or because an intermediary’s incentives point the wrong way.
+**First-hand tenure** — a *förstahandskontrakt*, a direct lease with the property owner — carries legal security of tenure (*besittningsskydd*) from day one under the rental chapter of the Land Code. The landlord cannot simply change their mind and take the flat back. Ending the tenancy needs listed grounds: serious breach, demolition or major rebuild, and similar. Disputes go to the rent tribunal, not to the landlord’s whim. Ordinary rents sit inside a use-value / collective-negotiation system, not pure asking-price chaos. That legal package is what made those Poseidon flats feel like ours even though we did not own them.
 
-Sweden’s failure here is not that the model is wrong. The failure is scarcity. Not enough of it. Queues and rationing turn a good institution into a lottery, and newcomers without the right contract fall into the private residual.
+*[fact — see `sources/notes/sweden-first-hand-tenure-allmannytta.md`]*
 
-*[interpretation — institutional facts to source]*
+**Private secondary renting** is another country. Second-hand letting of a rental flat gives only weaker, delayed protection, and never a right to take over the first-hand contract. Letting a privately owned home or tenant-owned flat under the private-letting rules gives no security of tenure at all. That is the residual market people fall into when they cannot get a first-hand contract — the world we hit later without one.
+
+*[fact — Domstolar / Hyresgästföreningen; lived contrast is personal-experience]*
+
+Important precision: the day-one tenure right attaches to first-hand *hyresrätt*, not only to municipal companies. A private landlord can grant the same legal security. What **allmännytta** adds is the institutional machine that can deliver that tenure at city scale. Under the municipal housing-company law, companies like Poseidon are city-controlled, charged with promoting housing supply, run on businesslike principles, and limited in how much surplus they can siphon to the municipality. Poseidon is Göteborg’s largest municipal landlord — tens of thousands of rental flats, part of the Framtiden group owned by the city. It describes itself as self-financed, with profits mostly reinvested. The Poseidon-type model, in plain language: secure first-hand rent; the company earns a return; surplus goes back into housing rather than vanishing into a private balance sheet as the point of the exercise.
+
+*[fact + interpretation — company self-description; Allbolagen]*
+
+The flats are not palaces. They do not need to be. They need to stay yours in the only way that matters when you do not own — they do not vanish because an amateur landlord changes their mind, or because an intermediary’s incentives point the wrong way.
+
+Sweden’s failure here is not that the model is wrong. The failure is scarcity. Not enough accessible first-hand stock. Queues and rationing turn a good institution into a lottery, and newcomers without the right contract fall into the private residual. Having the capability is not the same as scaling it.
+
+*[interpretation — scale still fact #4]*
 
 ---
 
 ## New Zealand mechanism
 
-New Zealand teaches ownership as the path to security. When prices outrun wages, that lesson becomes an inheritance lesson. Parental help decides who gets a foothold. Renting is widely treated as temporary failure on the way to a mortgage, not as a legitimate foundation for adult effort.
+New Zealand teaches a simple wealth strategy: work, save a deposit, buy, endure the mortgage, let the house appreciate, trade up, arrive at retirement with a valuable tax-advantaged asset. “Get on the property ladder.” When prices outrun wages, that lesson becomes an inheritance lesson. Parental help decides who gets a foothold. Renting is widely treated as temporary failure on the way to a mortgage, not as a legitimate foundation for adult effort.
+
+The politics of that ladder matter. People hurt by housing inflation can still defend the mechanism because their imagined solution is eventually joining the winning side — “I don’t want to lose my turn to win.” Treat that as interpretation, not polling proof. The darker version: work hard, rent, wait for Mum and Dad to die, inherit, and finally acquire security. An adult child excluded by house prices can end up defending the untaxed parental gains that caused much of their exclusion.
 
 The country has tenancy law and dispute forums. The cost of landlord failure is still too low. Agents and owners get away with behaviour that would be rarer if failure hurt. That is a real problem.
 
@@ -64,7 +80,7 @@ It is not the deepest problem. The deepest problem is the missing institution: s
 
 ## Shared outcome
 
-Housing security becomes increasingly inherited. Work still pays for life. Capital decides whether you can build security. Countries that let ownership compound without building strong non-owned alternatives write off the independence of people without family balance sheets.
+Housing security becomes increasingly inherited. Work still pays for life. Capital decides whether you can build security. The system became so unequal that inheritance started looking like the solution to the inequality. Countries that let ownership compound without building strong non-owned alternatives write off the independence of people without family balance sheets — and can still recruit the excluded into waiting for their turn to win.
 
 *[interpretation — load-bearing stats still needed]*
 
@@ -72,13 +88,13 @@ Housing security becomes increasingly inherited. Work still pays for life. Capit
 
 ## Who benefited
 
-Existing owners. Families who can transfer deposits or inherit. Political coalitions aligned with protecting asset values. Anyone for whom “housing policy” means protecting the price of what they already hold.
+Existing owners. Families who can transfer deposits or inherit. Political coalitions aligned with protecting asset values. Anyone for whom “housing policy” means protecting the price of what they already hold. Asset-based inequality’s quiet genius: some of the losers defend the game because they still hope to become winners.
 
 ---
 
 ## Who carried the cost
 
-People without family capital. Young renters in provisional arrangements. Anyone asked to study hard and take risks while standing on ice.
+People without family capital. Young renters in provisional arrangements. Anyone asked to study hard and take risks while standing on ice. Cohorts taught the old promise — work hard and buy a house — who now face the emerging promise: wait for inheritance.
 
 ---
 
@@ -118,8 +134,8 @@ Copy it. Expand it. Or keep pretending ownership alone will save the next genera
 
 1. Ownership / parental-help patterns by cohort in NZ and Sweden  
 2. Price-to-income or rent-burden trajectory that shows membership costs rising  
-3. What Poseidon / allmännytta first-hand tenure actually guarantees (sourced)  
+3. ~~What Poseidon / allmännytta first-hand tenure actually guarantees~~ — **done** (`sources/notes/sweden-first-hand-tenure-allmannytta.md`). Short answer: first-hand *hyresrätt* = day-one *besittningsskydd* + constrained rent-setting under JB 12 kap.; allmännytta/Poseidon = municipal company form that can deliver that tenure at scale with a housing-supply mission and mostly reinvested surplus. Do not claim tenure law is exclusive to municipal companies.  
 4. Scale: how much of Swedish rental stock is this secure type vs private secondary  
 5. NZ near-misses (Kāinga Ora, community housing, etc.) — where they fall short of this function  
 
-Do not invent citations. Park further research until these five are scoped.
+Do not invent citations. Next research priority after mechanism polish: fact #4 or #5 depending on which spine paragraph needs a number first.
