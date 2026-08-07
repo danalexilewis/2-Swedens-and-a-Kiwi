@@ -15,7 +15,9 @@ The book argues against denial and unconstrained intergenerational inequality. P
 5. **Skill and structural advantage coexist.** Do not design policy as if every fortune were undeserved, or as if every fortune were purely earned.
 6. **Preserve institutions worth keeping.** Criticism of Shared Failure is not a mandate to burn everything that still works. See `topics/institutions-worth-keeping.md`.
 7. **Predictions are not mandates.** Proposals should be labelled as proposals; forecasts as forecasts.
+8. **Tax society-created land value more; tax work and built improvements less.** Orientation only — not a finished land-value-tax platform, rate, or transition design. Preserve the distinction between productive development and passive capture of scarce location value. See `topics/taxing-activity-rewarding-scarcity.md`.
+9. **Feed children at school as public infrastructure.** Universal school meals are a net social positive — local kitchens and cooks, not capitalistic centralised commercial facilities as the default. Prefer governance that can spend efficiently on children (e.g. district education boards) over fragmented arrangements that make daily provision harder. See `topics/childhood-and-school-meals.md`.
 
 ## Explicitly deferred
 
-Detailed policy design for pensions, full tax codes, and publishing/software ideas are parked unless they serve the current chapter. See `CURRENT.md` and `PARKING-LOT.md`.
+Detailed policy design for pensions, full tax codes, land-value-tax rates and transition rules, school-governance legislation, kitchen build-out costing, and publishing/software ideas are parked unless they serve the current chapter. See `CURRENT.md` and `PARKING-LOT.md`.

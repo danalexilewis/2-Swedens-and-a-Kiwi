@@ -4,6 +4,8 @@ One central claim system. Simple Markdown. Not a database.
 
 Processed from `inbox/transcripts/2026-08-05-framework-brief.md`.  
 Also processed: `inbox/transcripts/2026-08-05-poseidon-vs-private-rent.md` (housing tenure contrast).  
+Also processed: `inbox/transcripts/2026-08-07-taxing-activity-rewarding-scarcity.md` (Georgism / land-value taxation).  
+Also processed: `inbox/transcripts/2026-08-07-school-meals-and-child-poverty.md` (school meals / child poverty).  
 First pass: establish what is being argued. Evidence links to be added later — do not invent citations.
 
 ## Claim types
@@ -65,6 +67,7 @@ Both / New Zealand / Sweden
 - Fertility / family decision under housing insecurity
 - Poseidon / Guldheden: renting that felt like ours
 - Return ~2022: private market without first-hand contract
+- Mark on Styrsö: school cook feeding ~90 with proper equipment (verify staffing help)
 
 ### Interpretations
 
@@ -81,6 +84,10 @@ Both / New Zealand / Sweden
 - Skill and structural tailwind coexist (Wallenstam framing)
 - Swedish first-hand vs private rental contrast is stark
 - NZ private rental functions better than Sweden’s private secondary market, but still weak on enforcement
+- NZ taxes income/consumption more consistently than unreclaimed land-value increases (verify wording)
+- Broad land-value tax is different from a targeted vacant-land tax
+- Grocery chains quietly win when children are not fed at school (post-tax + GST + margin)
+- Fragmented / independently owned school governance makes coordinated child provision harder
 
 ### Causal arguments
 
@@ -91,11 +98,16 @@ Both / New Zealand / Sweden
 - Youth leave partly because membership costs / opportunities elsewhere (test, especially Sweden)
 - QE / monetary conditions contributed to particular fortunes (never sole cause; highest standard)
 - Secure modest rental enables study, saving, and risk-taking without parental co-residence (qualified)
+- Taxing total property value can discourage improvements more than taxing land value alone
+- Public infrastructure and planning create land-value gains largely captured by existing owners
+- Preferential land/housing treatment can divert capital from productive business investment (research needed)
+- Missing universal school meals shifts childhood food onto private retail and household budgets
 
 ### Predictions
 
 - Middle-class income insufficient for middle-class life if trends continue
 - Capital-class destination / reform harder as owner power consolidates
+- A land-value tax could reduce the tax penalty on constructing additional housing (contingent)
 
 ### Proposals
 
@@ -105,6 +117,7 @@ Both / New Zealand / Sweden
 - NZ needs something like a Poseidon-style secure modest rental model (NZ copy; Sweden expand)
 - NZ needs sharper tenancy enforcement / higher cost of landlord failure
 - NZ should not import Swedish-style intermediary penalty structures that further weaken tenants
+- NZ should feed every child at school via school kitchens; prefer district coordination over fragmented ownership and centralised commercial catering
 
 ---
 
@@ -918,6 +931,396 @@ The Cost of Membership; What Is Worth Keeping
 
 **Legal care**  
 `legal-review/private-landlords-samtrygg.md`
+
+---
+
+## Claim: NZ recurring tax asymmetry on land value
+
+**Statement**  
+New Zealand’s tax system places clear recurring taxes on income and consumption while imposing no equivalent general recurring tax on increases in unimproved land value.
+
+**Type**  
+Interpretation (based on tax-system design). Needs precise verification and wording before publication.
+
+**Applies to**  
+New Zealand (comparative force for Sweden once Swedish land/building tax treatment is mapped).
+
+**Why it matters**  
+Names the structural advantage: productive activity creates visible taxable flows; land-value gains can remain largely unrealized without an equivalent recurring tax merely because the location became more valuable.
+
+**Evidence needed**  
+- Current IRD / tax-policy confirmation of income, GST, rates, bright-line, intention, dealer/developer, and related land-sale rules  
+- Whether any national annual tax applies to unimproved land-value increases  
+- How council rates interact with land vs capital value  
+
+**Evidence currently held**  
+- Working argument in `inbox/transcripts/2026-08-07-taxing-activity-rewarding-scarcity.md`  
+- Topic: `topics/taxing-activity-rewarding-scarcity.md`  
+
+**Strongest challenge**  
+Rates already tax property; some property-sale gains are taxable under intention, bright-line, dealer, developer, and related rules.
+
+**My response**  
+Do not say landowners pay no tax, or that every property gain is untaxed. The sharper point is the missing general recurring tax on unreclaimed land-value increases — not the absence of all property-related tax.
+
+**Safe manuscript wording**  
+New Zealand taxes income and consumption broadly, while increases in land value are generally taxed less consistently and often only when particular sale rules apply.
+
+**Possible stronger wording**  
+Hold until official verification: New Zealand does not generally impose an annual tax on the increase in the unimproved value of land.
+
+**Chapter**  
+Equal Rules, Unequal Rewards; The Cost of Membership; Capital-Class Societies
+
+**Topic**  
+`taxing-activity-rewarding-scarcity`, `tax-preferences`
+
+---
+
+## Claim: Land tax vs capital-value tax and improvements
+
+**Statement**  
+Taxing total property value can discourage improvements more than taxing land value alone.
+
+**Type**  
+Causal-argument / economic claim. Strong theoretical support; mixed empirical magnitude.
+
+**Applies to**  
+Both (theory); New Zealand (local rating empirics).
+
+**Why it matters**  
+Explains why Georgist land-value taxation aims to tax scarce location, not buildings — so constructing or improving need not automatically enlarge the tax base.
+
+**Evidence needed**  
+- Coleman and Grimes on land vs capital-value efficiency  
+- Grimes, Aitken, Kerr on progressivity of land vs capital-value rates  
+- Gemmell and Grimes on Auckland rating changes (construction vs alterations)  
+- Henry Review on land tax and stamp-duty replacement  
+
+**Evidence currently held**  
+- Named source targets in `sources/notes/nz-land-tax-research.md`, `sources/notes/australia-land-tax-reform.md`  
+
+**Strongest challenge**  
+NZ quasi-natural experiment found little short-term evidence of effects on new building after Auckland rating changes, though stronger evidence on alterations. Theory does not prove a construction boom.
+
+**My response**  
+Say: economic theory suggests taxing land rather than improvements should reduce the penalty on building. Do not yet say NZ evidence proves a large construction boom.
+
+**Safe manuscript wording**  
+A tax on total property value includes the building, so improving can raise the tax base. A pure land-value tax charges for the scarce location, not for the improvements the owner creates.
+
+**Possible stronger wording**  
+Defer magnitude claims until empirics are read carefully.
+
+**Chapter**  
+Equal Rules, Unequal Rewards; House or Company
+
+**Topic**  
+`taxing-activity-rewarding-scarcity`, `productivity-and-risk`
+
+---
+
+## Claim: Public investment creates privately captured land value
+
+**Statement**  
+Public infrastructure and planning decisions create land-value gains that are largely captured by existing owners.
+
+**Type**  
+Causal-argument / economic mechanism. Strong general support; specific examples require evidence.
+
+**Applies to**  
+Both.
+
+**Why it matters**  
+Links Shared Failure to a concrete mechanism: the public pays for the station; nearby owners receive capitalized land-value gains. Renters help fund the city; owners receive the increase in the price of belonging.
+
+**Evidence needed**  
+- OECD land-value capture material  
+- Arnott and Stiglitz / Henry George theorem (public goods reflected in land rents — not every project pays for itself)  
+- Concrete NZ and Swedish infrastructure / rezoning examples  
+
+**Evidence currently held**  
+- Source stubs: `sources/notes/henry-george-theorem-and-lvc.md`  
+
+**Strongest challenge**  
+Not every public project capitalizes fully into nearby land; owners also pay rates and taxes that fund infrastructure; planning upside is partly compensation for development risk.
+
+**My response**  
+The question is consistency: why tax the workers who build the railway more reliably than we reclaim more of the land value the railway creates?
+
+**Safe manuscript wording**  
+Public investment and planning can raise nearby land values. Existing owners often capture much of that immediately capitalized financial benefit, while the tax system more consistently observes the wages and consumption that funded the project.
+
+**Possible stronger wording**  
+Hold project-specific dollar claims until sourced.
+
+**Chapter**  
+The Cost of Membership; Equal Rules, Unequal Rewards; Management Without Correction
+
+**Topic**  
+`taxing-activity-rewarding-scarcity`, `housing-and-belonging`
+
+---
+
+## Claim: Preferential land treatment diverts capital from productive investment
+
+**Statement**  
+Preferential treatment of land and housing directs capital away from productive business investment.
+
+**Type**  
+Causal-argument. Research needed — do not state as settled fact.
+
+**Applies to**  
+Both (especially New Zealand’s housing-heavy financial system).
+
+**Why it matters**  
+May help explain simultaneous complaints about weak productivity, low business investment, housing shortages, high household debt, and poor wage growth while property remains an unusually attractive vehicle for family wealth.
+
+**Evidence needed**  
+- Bank lending allocation (residential/commercial land vs productive business lending)  
+- Household portfolios  
+- Business investment trends  
+- Relative after-tax returns  
+- NZ and Swedish comparisons  
+
+**Evidence currently held**  
+- Working proposition only; see `book/OPEN-QUESTIONS.md`  
+
+**Strongest challenge**  
+Productivity has many causes (skills, regulation, market size, distance). Preferential housing treatment may coexist with low investment without being the main driver.
+
+**My response**  
+Keep as a working causal proposition. Do not treat as settled until tax treatment, lending, capital allocation, and business investment are researched.
+
+**Safe manuscript wording**  
+A tax and credit system that rewards land appreciation more reliably than business investment can encourage capital to flow toward existing property rather than productive enterprise — a claim that needs evidence, not assertion.
+
+**Possible stronger wording**  
+Defer until lending and return comparisons are sourced.
+
+**Chapter**  
+House or Company; Capital-Class Societies
+
+**Topic**  
+`taxing-activity-rewarding-scarcity`, `productivity-and-risk`
+
+---
+
+## Claim: Land-value tax could reduce the penalty on building housing
+
+**Statement**  
+A land-value tax could reduce the tax penalty on constructing additional housing.
+
+**Type**  
+Prediction / policy prediction. Theoretically plausible; practical result depends on rate, replacement taxes, planning, finance, and transition.
+
+**Applies to**  
+Both (as policy discussion); New Zealand and Australia (implementation literature).
+
+**Why it matters**  
+Preserves the Georgist incentive story without presenting LVT as a finished platform or assuming it alone fixes affordability.
+
+**Evidence needed**  
+- Theory of land vs improvements  
+- ACT / Henry Review transition design  
+- Empirics on construction response (including Gemmell–Grimes caution)  
+- Interaction with planning constraints  
+
+**Evidence currently held**  
+- Hypothetical 1% worked examples in topic file (illustrative only — not the author’s final proposed rate)  
+
+**Strongest challenge**  
+Planning, finance, and transition may dominate; cash-poor owners and mortgage effects; exemptions can undermine the point; vacant-land tax critiques get wrongly generalized.
+
+**My response**  
+Do not assume LVT alone solves housing affordability or intergenerational inequality. Keep worked examples labeled hypothetical. Distinguish broad LVT from narrow vacant-land taxes.
+
+**Safe manuscript wording**  
+In principle, charging for land value rather than improvements should not punish putting more homes on scarce land. Whether that produces more housing depends on rate, what taxes are reduced, planning, credit conditions, and how the transition is designed.
+
+**Possible stronger wording**  
+Defer boom claims.
+
+**Chapter**  
+Equal Rules, Unequal Rewards; House or Company; Capital-Class Societies
+
+**Topic**  
+`taxing-activity-rewarding-scarcity`
+
+---
+
+## Claim: Broad land-value tax differs from vacant-land tax
+
+**Statement**  
+A broad land-value tax is different from a targeted vacant-land tax.
+
+**Type**  
+Interpretation / definition. Status: strong.
+
+**Applies to**  
+Both (policy vocabulary).
+
+**Why it matters**  
+Prevents misusing research that criticizes narrow vacancy taxes as though it automatically disproves broad land-value taxation.
+
+**Evidence needed**  
+- NZ Productivity Commission working paper on vacant-land taxes (development pipeline critique)  
+- Clear definitions of broad LVT vs vacancy taxes in advocacy and official material  
+
+**Evidence currently held**  
+- Distinction preserved in `topics/taxing-activity-rewarding-scarcity.md`  
+
+**Strongest challenge**  
+In practice, reformers sometimes propose hybrid or targeted instruments; political packaging may blur the distinction.
+
+**My response**  
+A vacant-land tax requires the state to decide whether each parcel is used well enough. A broad LVT charges according to location value regardless of vacant, rented, owner-occupied, or developed use. Keep the instruments separate in argument and evidence.
+
+**Safe manuscript wording**  
+A tax aimed only at “vacant” land is not the same as a recurring tax on land value wherever it sits. Critiques of one do not automatically settle the other.
+
+**Possible stronger wording**  
+Same — definitional clarity is the point.
+
+**Chapter**  
+Equal Rules, Unequal Rewards (policy caveats)
+
+**Topic**  
+`taxing-activity-rewarding-scarcity`
+
+---
+
+## Claim: Swedish school meals as childhood floor
+
+**Statement**  
+In Sweden, children are fed every school day; if they are short of food at home, they can eat more at school. This relieves parents and puts a floor under childhood hunger.
+
+**Type**  
+Personal-experience / interpretation. Verify universality before absolute manuscript wording.
+
+**Applies to**  
+Sweden (mechanism); New Zealand (contrast and copy-the-function force).
+
+**Why it matters**  
+Second clear “institution worth keeping” beside Poseidon: public childhood infrastructure that does not require parental capital.
+
+**Evidence needed**  
+- Swedish school-meal law/practice across municipalities and school types  
+- Funding and staffing norms  
+- Official NZ lunch-programme coverage and gaps  
+- Child poverty measures in NZ  
+
+**Evidence currently held**  
+- Author assertion from lived knowledge  
+- Mark / Styrsö conversation (scene bank; legal care)  
+- `inbox/transcripts/2026-08-07-school-meals-and-child-poverty.md`  
+
+**Strongest challenge**  
+Quality varies; some hunger and poverty still exist in Sweden; NZ has partial programmes; absolute “no hungry children” may overclaim.
+
+**My response**  
+Do not romanticise the food. Defend the function: daily public meals as ordinary competence. To NZ: it is hard to believe we do not do this.
+
+**Safe manuscript wording**  
+Swedish schools feed children as a normal part of the school day. The food is not gourmet, but it is not junk — and it means hunger at home need not mean hunger at school.
+
+**Possible stronger wording**  
+Hold “there are no hungry children in Sweden” until verified; use as author force in notes, qualify in manuscript if needed.
+
+**Chapter**  
+What Is Worth Keeping; Youth Without a Ladder; Management Without Correction
+
+**Topic**  
+`childhood-and-school-meals`, `institutions-worth-keeping`
+
+**Legal care**  
+`legal-review/mark-styrso-school-cook.md`
+
+---
+
+## Claim: Grocery chains win when schools do not feed children
+
+**Statement**  
+When children are not fed at school, their food is generally bought through grocery chains with money that has already been taxed, plus GST, plus supermarket margin. The quiet winners of missing school kitchens include grocery retail.
+
+**Type**  
+Interpretation / causal-argument.
+
+**Applies to**  
+New Zealand (primary force); comparative.
+
+**Why it matters**  
+Names who benefits from privatising childhood food — parallel to Shared Failure’s “who benefited” grammar.
+
+**Evidence needed**  
+- Share of child food spending via supermarkets vs school provision  
+- GST treatment of food  
+- Incidence care: do not overclaim that GST “double taxes” without precise wording  
+
+**Evidence currently held**  
+- Author reasoning in handover note  
+
+**Strongest challenge**  
+Parents choose brands and pack lunches; some prefer home food; commercial scale can lower unit costs; not all margin is pure rent.
+
+**My response**  
+Providing food via school kitchens is a net positive for society. A naive government treats it as optional. The retail path is not neutral — it is a political choice about who captures the childhood food spend.
+
+**Safe manuscript wording**  
+When schools do not feed children, childhood food is pushed onto post-tax household shopping. Supermarkets take their margin on that spend. Public kitchens change who the system pays.
+
+**Possible stronger wording**  
+The only people who win when we don’t feed our children at school are the grocery chains. *(author force — keep if it survives steelman)*
+
+**Chapter**  
+What Is Worth Keeping; Management Without Correction
+
+**Topic**  
+`childhood-and-school-meals`, `tax-preferences`
+
+---
+
+## Claim: NZ should feed children via school kitchens and district coordination
+
+**Statement**  
+New Zealand should feed every child at school through school kitchens (local cooks, proper equipment, community capacity), organised through stronger district education governance — not fragmented independent ownership and not capitalistic centralised commercial catering as the default. Building kitchens nationwide is also infrastructure and jobs.
+
+**Type**  
+Proposal.
+
+**Applies to**  
+New Zealand (copy the function); Sweden (already has the meal institution — defend it).
+
+**Why it matters**  
+Constructive twin to the Poseidon proposal: childhood membership infrastructure NZ could be proud of.
+
+**Evidence needed**  
+- Current NZ school governance map vs district-board proposal  
+- Costing of kitchen build-out and staffing  
+- Evaluations of commercial catering vs on-site kitchens  
+- Swedish municipal practice  
+
+**Evidence currently held**  
+- Author proposal force  
+- Mark scene as existence proof of competent on-site cooking  
+
+**Strongest challenge**  
+Fiscal cost; board reform politics; commercial contracts already exist; “nonnas” romanticises unpaid care; district boards can be bureaucratic.
+
+**My response**  
+Feeding children is pretty easy if we coordinate tax dollars for something we all deem necessary and stop interfering with community cooks by routing everything through centralised commercial facilities.
+
+**Safe manuscript wording**  
+New Zealand should copy the function of Swedish school meals: kitchens in schools, food every day, local cooks with the equipment to cook at scale. Prefer governance that can spend efficiently on children. Treat kitchen build-out as public infrastructure, not a charity afterthought.
+
+**Possible stronger wording**  
+Let the nonnas and the communities look after the kids. Just coordinate the tax dollars.
+
+**Chapter**  
+What Is Worth Keeping; Youth Without a Ladder
+
+**Topic**  
+`childhood-and-school-meals`, `institutions-worth-keeping`
 
 ---
 

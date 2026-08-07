@@ -67,10 +67,30 @@ Return to Sweden ~2022 (~12 years later): no Poseidon / first-hand (förstahands
 
 ---
 
+---
+
+## Scene: Mark on Styrsö — school cook
+
+**Claim type:** personal-experience  
+**Topics:** `childhood-and-school-meals`, `institutions-worth-keeping`  
+**Possible chapters:** What Is Worth Keeping; Youth Without a Ladder; Management Without Correction  
+**Source:** `inbox/transcripts/2026-08-07-school-meals-and-child-poverty.md`  
+**Legal care:** `legal-review/mark-styrso-school-cook.md`
+
+Met Mark on Styrsö — Irish, worked as cook at a local school. Told me he fed about 90 people every day largely by himself (some help likely — needs verification). Very good equipment. Recipes designed for bulk cooking.
+
+**Force to preserve:** Swedish school meals are ordinary public infrastructure staffed by real cooks with proper kit — not a charity patch or a supermarket lunchbox. One person (with likely help) feeding ~90 is the scale of competence NZ should copy the function of.
+
+---
+
 ## Scene ideas still needed
 
 - Encounter with formal tax equality and unequal benefit
 - Watching political attention fixate on wealthy exit while youth leave
 - A moment where “correct course” was visibly refused
+- **Builder vs empty prime site:** productive chain generating wages, GST-relevant supplies, and taxable income versus underused valuable land appreciating as the neighbourhood improves (conceptual — not yet a lived scene). Topics: `taxing-activity-rewarding-scarcity`, `tax-preferences`. Chapters: Equal Rules, Unequal Rewards; House or Company. Source: `inbox/transcripts/2026-08-07-taxing-activity-rewarding-scarcity.md`
+- **Railway station land windfall:** public pays for a station; nearby land jumps; workers taxed more consistently than the capitalized land gain is reclaimed. Topics: `taxing-activity-rewarding-scarcity`, `housing-and-belonging`. Chapters: The Cost of Membership; Equal Rules, Unequal Rewards
+- **Three houses vs one apartment block:** same underlying land value, very different homes provided — land tax per home falls with intensity of use (illustrative Georgist incentive, not a finished policy scene). Topics: `taxing-activity-rewarding-scarcity`, `housing-and-belonging`
+- Hungry kids / packed lunches / NZ school without a kitchen — lived NZ contrast if author has one (not yet supplied)
 
 _Add scenes from future transcripts without rewriting them into polished prose unless asked._

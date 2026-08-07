@@ -26,6 +26,7 @@ Candidate from lived experience (to source, not romanticize):
 
 - **Poseidon-style / allmännytta first-hand rental:** secure modest flats; profit recycled into more housing; lets young people study, save, and take risk without living with parents. Author: Sweden has not got enough of it.
 - **Hyresgästföreningen:** tenancy union with enough force to matter in disputes (lived use; outcomes still unresolved in one case).
+- **Universal school meals:** every school day, children are fed — not gourmet, not junk; local cooks and kitchens; relief for parents; floor under childhood hunger. See `topics/childhood-and-school-meals.md` (Mark / Styrsö scene). Author force: New Zealand should copy the function — school kitchens, district coordination, feed every child — not centralised commercial catering patches.
 
 *(open — do not invent a list)*
 
@@ -34,6 +35,8 @@ Candidate from lived experience (to source, not romanticize):
 What is worth keeping is country-specific. Do not import Swedish institutions as NZ solutions or vice versa without argument.
 
 Author proposal (owned as proposal): **New Zealand should copy** the function of Poseidon-style secure modest rental; **Sweden should expand** what it already knows how to do. Not a naive legal transplant — the security function: non-provisional modest housing so youth can study, save, and take risk without parental co-residence. NZ private rental may function better than Sweden’s private secondary market, but NZ still lacks this institution at scale.
+
+Second proposal force (owned): **New Zealand should copy** the function of Swedish school meals — kitchens in schools, daily food for every child, local cooks with purchasing control — organised through stronger district-level education governance rather than fragmented independent ownership and capitalistic centralised commercial facilities. Building the kitchens is also an infrastructure and jobs project. See `topics/childhood-and-school-meals.md`.
 
 ## Common Mechanism
 
@@ -91,3 +94,4 @@ _To be added._
 - Preserve competence. Limit compounding.
 - Small apartments that do not get pulled out from under you.
 - A simple model: secure rent, company profit, more apartments built.
+- Feeding children is pretty easy. Coordinate tax dollars; stop routing childhood food through supermarket margins and centralised commercial catering.
