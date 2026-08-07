@@ -12,9 +12,10 @@
 		/** Folder currently previewed by hover (dims other arcs). */
 		activeFolder: string | null;
 		onhover: (folder: string | null) => void;
+		onclick: (folder: string) => void;
 	};
 
-	let { layout, activeFolder, onhover }: Props = $props();
+	let { layout, activeFolder, onhover, onclick }: Props = $props();
 
 	const { center, ringInner, ringOuter, zones } = $derived(layout);
 	const labelR = $derived((ringInner + ringOuter) / 2);
@@ -66,11 +67,15 @@
 					fill-opacity={active ? 0.85 : 0.55}
 					stroke="rgba(15,17,21,0.65)"
 					stroke-width="1"
-					style="pointer-events: all; cursor: default;"
-					role="img"
-					aria-label="{zone.folder} zone, {zone.count} files"
+					style="pointer-events: all; cursor: pointer; outline: none;"
+					role="presentation"
+					aria-label="{zone.folder} zone, {zone.count} files — click for category"
 					onpointerenter={() => onhover(zone.folder)}
 					onpointerleave={() => onhover(null)}
+					onclick={(e) => {
+						e.stopPropagation();
+						onclick(zone.folder);
+					}}
 				/>
 				<text
 					x={lp.x}

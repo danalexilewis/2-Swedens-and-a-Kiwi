@@ -8,24 +8,45 @@
 		padding?: number;
 		minZoom?: number;
 		maxZoom?: number;
+		/**
+		 * Increment to reframe on the radial ring, slightly tighter than the
+		 * initial fit. Ignored when ringCenter/ringOuter are missing.
+		 */
+		ringFocusTick?: number;
+		ringCenter?: { x: number; y: number } | null;
+		ringOuter?: number | null;
 	};
 
 	let {
 		worldPadding = 40,
 		padding = 0.2,
 		minZoom = 0.08,
-		maxZoom = 1.75
+		maxZoom = 1.75,
+		ringFocusTick = 0,
+		ringCenter = null,
+		ringOuter = null
 	}: Props = $props();
 
 	const { getNodes, setViewport } = useSvelteFlow();
+
+	/** How much tighter than a full-bounds fit when focusing the ring. */
+	const RING_ZOOM_BOOST = 0.9;
+	const RING_PAD = 64;
+	const RING_FOCUS_DURATION = 320;
+
+	function flowSize() {
+		const flow = document.querySelector('.svelte-flow') as HTMLElement | null;
+		return {
+			width: flow?.clientWidth ?? 0,
+			height: flow?.clientHeight ?? 0
+		};
+	}
 
 	function frameAll() {
 		const nodes = getNodes();
 		if (!nodes.length) return false;
 
-		const flow = document.querySelector('.svelte-flow') as HTMLElement | null;
-		const width = flow?.clientWidth ?? 0;
-		const height = flow?.clientHeight ?? 0;
+		const { width, height } = flowSize();
 		if (width < 40 || height < 40) return false;
 
 		let minX = Infinity;
@@ -67,6 +88,48 @@
 		});
 		return true;
 	}
+
+	function frameRing() {
+		if (!ringCenter || ringOuter == null || ringOuter <= 0) return false;
+
+		const { width, height } = flowSize();
+		if (width < 40 || height < 40) return false;
+
+		const size = (ringOuter + RING_PAD) * 2;
+		const zoom = Math.max(
+			minZoom,
+			Math.min(maxZoom, Math.min(width / size, height / size) * RING_ZOOM_BOOST)
+		);
+
+		void setViewport(
+			{
+				x: width / 2 - ringCenter.x * zoom,
+				y: height / 2 - ringCenter.y * zoom,
+				zoom
+			},
+			{ duration: RING_FOCUS_DURATION }
+		);
+		return true;
+	}
+
+	let lastRingFocusTick = -1;
+	let ringFocusPrimed = false;
+
+	$effect(() => {
+		const tick = ringFocusTick;
+		// Skip the first run so remounts (view-mode key) don't re-zoom from a stale tick.
+		if (!ringFocusPrimed) {
+			ringFocusPrimed = true;
+			lastRingFocusTick = tick;
+			return;
+		}
+		if (!tick || tick === lastRingFocusTick) return;
+		lastRingFocusTick = tick;
+		// Defer one frame so layout/dialog open don't fight the camera.
+		requestAnimationFrame(() => {
+			frameRing();
+		});
+	});
 
 	onMount(() => {
 		let cancelled = false;

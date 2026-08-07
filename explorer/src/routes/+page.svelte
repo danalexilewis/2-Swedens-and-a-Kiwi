@@ -10,12 +10,17 @@
 	} from '@xyflow/svelte';
 	import FileNode from '$lib/FileNode.svelte';
 	import FileDialog from '$lib/FileDialog.svelte';
+	import FolderDialog from '$lib/FolderDialog.svelte';
 	import CardGallery from '$lib/CardGallery.svelte';
 	import RingZones from '$lib/RingZones.svelte';
 	import HierarchyBands from '$lib/HierarchyBands.svelte';
 	import FitOnMount from '$lib/FitOnMount.svelte';
 	import { layoutRing, layoutHierarchy, type ViewMode } from '$lib/layout';
 	import { folderColor } from '$lib/colors';
+	import {
+		getFolderDescription,
+		folderDescriptionOrder
+	} from '$lib/folderDescriptions';
 	import {
 		resolveFocus,
 		togglePin,
@@ -34,10 +39,13 @@
 
 	let filter = $state('');
 	let readingId = $state<string | null>(null);
+	let readingFolder = $state<string | null>(null);
 	let galleryOpen = $state(false);
 	let viewMode = $state<ViewMode>('radial');
 	let pinned = $state<FocusTarget>(null);
 	let hovered = $state<FocusTarget>(null);
+	/** Bumped when opening a category dialog so the camera reframes the ring. */
+	let ringFocusTick = $state(0);
 
 	const ring = $derived(layoutRing(data.files));
 	const hierarchy = $derived(layoutHierarchy(data.files));
@@ -47,18 +55,30 @@
 		readingId ? (fileById.get(readingId) ?? null) : null
 	);
 
+	const readingFolderDescription = $derived(
+		readingFolder ? getFolderDescription(readingFolder) : null
+	);
+
 	const folders = $derived(
 		viewMode === 'radial'
 			? ring.zones.map((z) => z.folder)
 			: hierarchy.bands.map((b) => b.folder)
 	);
 
-	const activeFocus = $derived(hovered ?? pinned);
+	/**
+	 * Graph highlight (node dim/emphasize + edge styles) is driven by *pin* only.
+	 * Hover must not rebuild nodes/edges — that replaces every object identity,
+	 * which re-fires pointerenter/leave under a moving viewport and loops.
+	 */
+	const focusSets = $derived(resolveFocus(pinned, data.files, data.edges));
 
-	const focusSets = $derived(resolveFocus(activeFocus, data.files, data.edges));
-
+	/** Ring/legend preview: cheap SVG opacity, no graph rebuild. */
 	const activeFolder = $derived(
-		activeFocus?.kind === 'folder' ? activeFocus.id : null
+		hovered?.kind === 'folder'
+			? hovered.id
+			: pinned?.kind === 'folder'
+				? pinned.id
+				: null
 	);
 
 	const pinnedFolder = $derived(pinned?.kind === 'folder' ? pinned.id : null);
@@ -157,6 +177,7 @@
 		event: MouseEvent | TouchEvent;
 	}) {
 		event.stopPropagation?.();
+		readingFolder = null;
 		const wasPinned = pinned?.kind === 'node' && pinned.id === node.id;
 		pinTarget({ kind: 'node', id: node.id });
 		if (wasPinned) {
@@ -166,21 +187,49 @@
 		}
 	}
 
+	function sameFocus(a: FocusTarget, b: FocusTarget) {
+		if (a === b) return true;
+		if (!a || !b) return false;
+		return a.kind === b.kind && a.id === b.id;
+	}
+
+	function setHovered(next: FocusTarget) {
+		if (sameFocus(hovered, next)) return;
+		hovered = next;
+	}
+
 	function onnodepointerenter({ node }: { node: Node }) {
-		hovered = { kind: 'node', id: node.id };
+		setHovered({ kind: 'node', id: node.id });
 	}
 
 	function onnodepointerleave() {
-		if (hovered?.kind === 'node') hovered = null;
+		if (hovered?.kind === 'node') setHovered(null);
 	}
 
 	function onpaneclick() {
 		pinned = null;
-		hovered = null;
+		setHovered(null);
 	}
 
 	function closeDialog() {
 		readingId = null;
+	}
+
+	function closeFolderDialog() {
+		readingFolder = null;
+		if (pinned?.kind === 'folder') pinned = null;
+	}
+
+	function openFolderDialog(folder: string) {
+		readingId = null;
+		const wasOpen = readingFolder === folder;
+		pinTarget({ kind: 'folder', id: folder });
+		readingFolder = wasOpen ? null : folder;
+		// Drop hover so pointer thrash during the camera move can't fight pin.
+		setHovered(null);
+		if (!wasOpen && viewMode === 'radial') {
+			ringFocusTick += 1;
+		}
 	}
 
 	function filePassesFilter(file: {
@@ -206,7 +255,7 @@
 
 	function onGlobalKeydown(e: KeyboardEvent) {
 		if (e.key === 'Escape') {
-			if (readingId) return;
+			if (readingId || readingFolder) return;
 			if (galleryOpen) {
 				e.preventDefault();
 				galleryOpen = false;
@@ -222,6 +271,7 @@
 	}
 
 	function onGallerySelect(id: string) {
+		readingFolder = null;
 		readingId = id;
 		pinned = { kind: 'node', id };
 	}
@@ -253,27 +303,53 @@
 		pinned = { kind: 'node', id: nextId };
 	}
 
+	const folderNavOrder = $derived(
+		viewMode === 'radial'
+			? folderDescriptionOrder(ring.zones)
+			: hierarchy.bands.map((b) => b.folder)
+	);
+
+	const folderDialogNavigation = $derived.by((): DialogNavigation | null => {
+		if (!readingFolder || folderNavOrder.length < 2) return null;
+		const index = folderNavOrder.indexOf(readingFolder);
+		if (index === -1) return null;
+		return {
+			index,
+			total: folderNavOrder.length,
+			onPrev: () => navigateFolderRing('anticlockwise'),
+			onNext: () => navigateFolderRing('clockwise')
+		};
+	});
+
+	function navigateFolderRing(direction: 'clockwise' | 'anticlockwise') {
+		if (!readingFolder || folderNavOrder.length < 2) return;
+		const nextFolder = adjacentOnRing(folderNavOrder, readingFolder, direction);
+		if (!nextFolder) return;
+		readingFolder = nextFolder;
+		pinned = { kind: 'folder', id: nextFolder };
+	}
+
 	function onZoneHover(folder: string | null) {
-		hovered = folder ? { kind: 'folder', id: folder } : null;
+		setHovered(folder ? { kind: 'folder', id: folder } : null);
 	}
 
 	function onLegendEnter(folder: string) {
-		hovered = { kind: 'folder', id: folder };
+		setHovered({ kind: 'folder', id: folder });
 	}
 
 	function onLegendLeave() {
-		if (hovered?.kind === 'folder') hovered = null;
+		if (hovered?.kind === 'folder') setHovered(null);
 	}
 
 	function onLegendClick(folder: string) {
-		pinTarget({ kind: 'folder', id: folder });
+		openFolderDialog(folder);
 	}
 
 	function setView(mode: ViewMode) {
 		if (viewMode === mode) return;
 		viewMode = mode;
 		pinned = null;
-		hovered = null;
+		setHovered(null);
 		// Rebuild for the new layout before {#key viewMode} remounts SvelteFlow,
 		// so fitView frames the whole graph instead of the previous layout.
 		const focus = resolveFocus(null, data.files, data.edges);
@@ -287,8 +363,8 @@
 		<div class="brand">
 			<strong>Two Swedens explorer</strong>
 			<span class="count"
-				>{data.files.length} files · {data.edges.length} links · hover ring / click
-				node to pin · Space for cards</span
+				>{data.files.length} files · {data.edges.length} links · click ring or legend
+				for category · click node to read · Space for cards</span
 			>
 		</div>
 
@@ -338,7 +414,9 @@
 				colorMode="dark"
 				nodesDraggable={false}
 				nodesConnectable={false}
-				elementsSelectable={true}
+				elementsSelectable={false}
+				nodesFocusable={false}
+				edgesFocusable={false}
 				panOnScroll
 				zoomOnScroll
 				minZoom={0.08}
@@ -358,11 +436,21 @@
 					patternColor="rgba(255,255,255,0.03)"
 				/>
 				{#if viewMode === 'radial'}
-					<RingZones layout={ring} {activeFolder} onhover={onZoneHover} />
+					<RingZones
+						layout={ring}
+						{activeFolder}
+						onhover={onZoneHover}
+						onclick={openFolderDialog}
+					/>
 				{:else}
 					<HierarchyBands layout={hierarchy} />
 				{/if}
-				<FitOnMount worldPadding={viewMode === 'radial' ? 80 : 40} />
+				<FitOnMount
+					worldPadding={viewMode === 'radial' ? 80 : 40}
+					{ringFocusTick}
+					ringCenter={viewMode === 'radial' ? ring.center : null}
+					ringOuter={viewMode === 'radial' ? ring.ringOuter : null}
+				/>
 				<Controls />
 				<MiniMap
 					nodeColor={(n) =>
@@ -392,6 +480,13 @@
 	file={readingFile}
 	navigation={dialogNavigation}
 	onclose={closeDialog}
+/>
+
+<FolderDialog
+	folder={readingFolder}
+	description={readingFolderDescription}
+	navigation={folderDialogNavigation}
+	onclose={closeFolderDialog}
 />
 
 <style>
@@ -520,5 +615,12 @@
 		width: 100%;
 		height: 100%;
 		background: #0f1115;
+	}
+
+	.canvas :global(.svelte-flow__node.selected),
+	.canvas :global(.svelte-flow__node:focus),
+	.canvas :global(.svelte-flow__node:focus-visible) {
+		outline: none !important;
+		box-shadow: none !important;
 	}
 </style>
