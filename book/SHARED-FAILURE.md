@@ -29,6 +29,31 @@ Every topic file asks:
 
 This keeps the comparison central and prevents two separate national books sharing a cover.
 
+## Diagnostic method
+
+Shared Failure is not only a theme. It is almost a research method:
+
+> When two substantially different systems converge on the same failure state, investigate their shared structural constraints.
+
+Sweden and New Zealand differ widely in culture, welfare, labour tradition, geography, tax systems, and attitudes toward the state. Familiar contemporary problems around housing, generational wealth, public-system strain, productivity, and the social contract therefore become a clue — not proof of any single cause — that some drivers may sit **one level above national politics** (financialization, asset inflation, monetary regimes, tax competition, demographics, the structure of modern capitalism). Domestic failure to correct course remains part of the charge; global structure does not erase national agency.
+
+See `topics/reflection-and-execution.md`.
+
+## Reflection ↔ Execution
+
+A sharper pairing underneath the country contrast:
+
+- **Capacity to act** — institutionalize, coordinate, fund, professionalize, make change stick.
+- **Capacity to observe** — step outside assumptions, notice strange outcomes, entertain alternatives.
+
+Working tendency: Sweden is strong at making systems durable; New Zealand is strong at making systems questionable. A healthy society needs both. Cross-learning should **transpose capabilities, not institutions**.
+
+Working punchline: Sweden needs New Zealand to help it ask “Why?” New Zealand needs Sweden to help it answer “Okay, so what are we going to build instead?”
+
+## Related branch: machine authority
+
+Shared Failure is not only about asset compounding. A related branch is declining confidence in the humans and institutions entrusted to exercise power — attraction to machine or algorithmic authority because human authority has felt intolerable. Warning: removing humiliation is not the same as removing exploitation or making power accountable. See `topics/machine-authority-and-management.md`.
+
 ## Working line
 
 The book is an argument against denial in the present.

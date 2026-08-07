@@ -6,6 +6,9 @@ Processed from `inbox/transcripts/2026-08-05-framework-brief.md`.
 Also processed: `inbox/transcripts/2026-08-05-poseidon-vs-private-rent.md` (housing tenure contrast).  
 Also processed: `inbox/transcripts/2026-08-07-taxing-activity-rewarding-scarcity.md` (Georgism / land-value taxation).  
 Also processed: `inbox/transcripts/2026-08-07-school-meals-and-child-poverty.md` (school meals / child poverty).  
+Also processed: `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md` (CGT politics / turn-to-win / inheritance-as-solution).  
+Also processed: `inbox/transcripts/2026-08-07-reflection-and-execution.md` (Reflection ↔ Execution / Shared Failure as method / transpose capabilities).  
+Also processed: `inbox/transcripts/2026-08-07-machine-authority-and-management.md` (machine authority / algorithmic management).  
 First pass: establish what is being argued. Evidence links to be added later — do not invent citations.
 
 ## Claim types
@@ -56,10 +59,14 @@ Both / New Zealand / Sweden
 - NZ housing gains treatment (ordinary long-held gains)
 - Swedish ISK and related capital rules (rates/structure)
 - Company and market facts for any Wallenstam illustration
-- Poseidon / Guldheden tenure and history (institutional facts)
-- Swedish förstahandskontrakt / allmännytta vs private secondary rules
+- Poseidon / Guldheden tenure and history (institutional facts) — tenure guarantees sourced (S10); Guldheden history still open
+- Swedish förstahandskontrakt / allmännytta vs private secondary rules — **sourced** (`sources/notes/sweden-first-hand-tenure-allmannytta.md`)
 - Intermediary rental platforms (confirm name, fees, penalty structures)
 - NZ Tenancy Tribunal / tenancy union teeth and landlord failure costs
+- 2025 RNZ–Reid Research CGT poll (investment property vs family home)
+- 2019 Tax Working Group: family-home ToR exclusion and owner-occupied incentive note
+- Treasury “first rung on a wealth ladder” / housing as largest household wealth claim
+- University of Auckland housing research on “property ladder” metaphor
 
 ### Personal experience
 
@@ -68,6 +75,7 @@ Both / New Zealand / Sweden
 - Poseidon / Guldheden: renting that felt like ours
 - Return ~2022: private market without first-hand contract
 - Mark on Styrsö: school cook feeding ~90 with proper equipment (verify staffing help)
+- Benji: platform / gig work and capacity-based flexibility (thin facts; legal care)
 
 ### Interpretations
 
@@ -88,6 +96,20 @@ Both / New Zealand / Sweden
 - Broad land-value tax is different from a targeted vacant-land tax
 - Grocery chains quietly win when children are not fed at school (post-tax + GST + margin)
 - Fragmented / independently owned school governance makes coordinated child provision harder
+- Turn-to-win: “I don’t want to lose my turn to win” (NZ CGT psychology — not polling-proved)
+- Family home sacred: investment vs owner-occupied gain distinction is political more than economic
+- Inheritance looking like the solution to the inequality
+- Gains feel deserved (prudence) while partly socially created
+- Distrust of government: another tax without a named reduction
+- Shared Failure as diagnostic method (convergent failure → shared constraints)
+- Sweden strong at durable institutionalization; weaker at seeing the system from outside
+- NZ strong at questioning systems; weaker at national redesign that sticks for decades
+- Structural difficulty can be experienced as personal failure (esp. coherent Swedish path)
+- Reflection ↔ Execution as the deeper pairing under Sweden vs NZ
+- Attraction to machine authority because human authority has become poor
+- Machine may remove humiliation without removing exploitation
+- Sweden surrounds managerial power with negotiating institutions (unions/labour model) — without eliminating it
+- AI in government: meaningful machine role no longer absurd — not the same as wanting machine rule
 
 ### Causal arguments
 
@@ -102,12 +124,18 @@ Both / New Zealand / Sweden
 - Public infrastructure and planning create land-value gains largely captured by existing owners
 - Preferential land/housing treatment can divert capital from productive business investment (research needed)
 - Missing universal school meals shifts childhood food onto private retail and household budgets
+- Asset-based inequality recruits some losers into defending the mechanism (hope of joining winners)
+- CGT politics can reinforce inheritance-as-security path
+- Convergent failure across different national systems can point to shared structural constraints above the nation-state (clue, not proof)
+- Removing the visible human manager can hide power in algorithms without ending managerial control
+- Platform “work when capacity allows” can become full risk transfer onto the worker
 
 ### Predictions
 
 - Middle-class income insufficient for middle-class life if trends continue
 - Capital-class destination / reform harder as owner power consolidates
 - A land-value tax could reduce the tax penalty on constructing additional housing (contingent)
+- Emerging promise: work, rent, wait to inherit (deterioration of social contract)
 
 ### Proposals
 
@@ -118,7 +146,9 @@ Both / New Zealand / Sweden
 - NZ needs sharper tenancy enforcement / higher cost of landlord failure
 - NZ should not import Swedish-style intermediary penalty structures that further weaken tenants
 - NZ should feed every child at school via school kitchens; prefer district coordination over fragmented ownership and centralised commercial catering
-
+- Change what we tax (more land/rents/large inherited advantages; less wages/productive investment/building/entrepreneurship) — not merely add another capital tax
+- Don’t transpose institutions; transpose capabilities (NZ needs Swedish-ish institutional muscle; Sweden needs NZ-ish permission to deviate / question)
+- Retain capacity-based work flexibility without requiring workers to carry all economic risk; use machines for routine coordination, humans for judgment/empathy/accountability
 ---
 
 ## Claims
@@ -415,11 +445,18 @@ Adult stability increasingly depends on family transfers that arrive late and un
 **Possible stronger wording**  
 The social contract is becoming an inheritance contract.
 
+**Paired lines to preserve (2026-08-07)**  
+Economic conclusion: the system became so unequal that inheritance started looking like the solution to the inequality.  
+Emotional observation: nobody wants to end the game because everyone is waiting for their turn to win.
+
 **Chapter**  
 What Made Them Rich…; Inheritance Contract
 
 **Topic**  
 `inheritance-and-generations`
+
+**Related**  
+Turn-to-win claim; `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`
 
 ---
 
@@ -735,15 +772,15 @@ Sweden primarily; NZ comparison secondary.
 Stops the book collapsing “Swedish housing” into one story. Tenure structure is the mechanism.
 
 **Evidence needed**  
-- Legal differences: förstahandskontrakt vs andrahand / private arrangements  
 - Scale of private secondary market  
 - Intermediary platform mechanics (sourced)  
 
 **Evidence currently held**  
 - Lived trilogy of private-landlord frustrations (legal care required)  
+- Legal tenure package sourced: `sources/notes/sweden-first-hand-tenure-allmannytta.md` (S10) — first-hand day-one besittningsskydd vs weaker andrahand / no protection under privatuthyrningslagen; Allmännytta/Poseidon as municipal delivery vehicle (not exclusive owner of tenure law)  
 
 **Strongest challenge**  
-First-hand queues are brutal; “secure” public rent is scarce; private market is the residual for newcomers.
+First-hand queues are brutal; “secure” public rent is scarce; private market is the residual for newcomers. Private landlords can also grant first-hand contracts.
 
 **My response**  
 Scarcity of the good model is part of the failure. The lived point is what security feels like when you have it — and what precarity feels like when you do not.
@@ -862,13 +899,13 @@ New Zealand (copy the function); Sweden (expand).
 Constructive end of the housing critique; opens *What Made Them Rich Made Their Children Poor* and feeds What Is Worth Keeping.
 
 **Evidence needed**  
-- How Poseidon / allmännytta companies actually work (governance, profit recycling, allocation)  
 - NZ analogues or near-misses (Kāinga Ora, community housing, etc.) — compare carefully, do not invent  
 - Scale of secure first-hand stock vs need in Sweden  
 
 **Evidence currently held**  
 - Author lived experience and proposal judgment  
 - Chapter draft opening in `chapters/what-made-them-rich-made-their-children-poor.md`  
+- Tenure guarantees + Poseidon / Allbolagen institutional form: `sources/notes/sweden-first-hand-tenure-allmannytta.md` (S10)  
 
 **Strongest challenge**  
 Queues, stigma, fiscal cost, political capture, “not how NZ does housing”; ownership culture resists rental-as-security; expansion in Sweden blocked by local politics and land.
@@ -1321,6 +1358,557 @@ What Is Worth Keeping; Youth Without a Ladder
 
 **Topic**  
 `childhood-and-school-meals`, `institutions-worth-keeping`
+
+---
+
+## Claim: Turn-to-win psychology
+
+**Statement**  
+“I don’t want to lose my turn to win” describes part of New Zealand psychology around capital-gains tax and the property ladder: people hurt by housing inflation can still defend the mechanism because their imagined solution is eventually joining the winning side.
+
+**Type**  
+Interpretation. Explicitly not something we can prove from polling.
+
+**Applies to**  
+New Zealand (primary force); Shared Failure grammar more broadly.
+
+**Why it matters**  
+Names how asset-based inequality recruits some losers into defending the game. Belongs in Shared Failure and the current intergenerational chapter.
+
+**Evidence needed**  
+- Qualitative / political analysis of CGT debates (supportive colour, not proof)  
+- Polling that distinguishes investment property vs family home (context only)  
+
+**Evidence currently held**  
+- `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`  
+- Conceptual scenes: 65-year-old / 32-year-old child; casino queue  
+
+**Strongest challenge**  
+Many opponents have principled design objections; younger cohorts also support reform; “turn to win” may over-psychologise fiscal politics.
+
+**My response**  
+Do not reduce every opponent to self-interest. Still preserve the turn-to-win observation as one political force — especially when the excluded defend untaxed parental gains as their path to a house.
+
+**Safe manuscript wording**  
+When capital gains on housing are proposed for tax, some people do not hear tax neutrality. They hear that the rules are changing just before their turn.
+
+**Possible stronger wording**  
+Nobody wants to end the game because everyone is waiting for their turn to win.
+
+**Chapter**  
+What Made Them Rich Made Their Children Poor; Equal Rules, Unequal Rewards; Shared Failure framing
+
+**Topic**  
+`tax-preferences`, `housing-and-belonging`, `inheritance-and-generations`
+
+---
+
+## Claim: Inheritance as the solution to inequality
+
+**Statement**  
+The system became so unequal that inheritance started looking like the solution to the inequality. The emerging promise may be: work hard, rent, wait for your parents to die, inherit their property wealth, and finally acquire security.
+
+**Type**  
+Interpretation (economic conclusion) paired with emotional observation (turn-to-win). Preserve both lines.
+
+**Applies to**  
+New Zealand (force); both countries (pattern).
+
+**Why it matters**  
+Sharpens the inheritance-contract claim: CGT politics can accidentally reinforce waiting for Dad’s house. Adult children excluded by housing inflation can defend the untaxed gains that caused much of their exclusion.
+
+**Evidence needed**  
+- Cohort homeownership and parental transfer patterns  
+- Inheritance timing vs housing/family formation ages  
+- Political rhetoric around family-home exemptions  
+
+**Evidence currently held**  
+- Existing inheritance-contract claim  
+- `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`  
+
+**Strongest challenge**  
+Inheritance has always helped; not all parents leave houses; many young people still buy; framing as “wait to die” is harsh.
+
+**My response**  
+Scale and necessity matter. When inheritance becomes the normal path to adult housing security, the social contract has deteriorated — and defending untaxed parental housing gains can lock that path in.
+
+**Safe manuscript wording**  
+The old promise was work hard and buy a house. An emerging promise is work hard, rent, and wait for inherited housing wealth.
+
+**Possible stronger wording**  
+The system became so unequal that inheritance started looking like the solution to the inequality.
+
+**Chapter**  
+What Made Them Rich Made Their Children Poor; The Inheritance Contract
+
+**Topic**  
+`inheritance-and-generations`, `housing-and-belonging`
+
+---
+
+## Claim: Family-home exemption is a political distinction
+
+**Statement**  
+Treating investment-property capital gains as income-like and taxable while treating a large gain on the owner-occupied Auckland home as “family security” is not a clean economic distinction. It is a political distinction. The family home is almost sacred.
+
+**Type**  
+Interpretation. Supported by TWG recognition of the economic awkwardness (needs citation).
+
+**Applies to**  
+New Zealand.
+
+**Why it matters**  
+Explains why CGT support can exist for investment property and collapse when the family home is included — and why owner-occupied housing remains a privileged wealth vehicle.
+
+**Evidence needed**  
+- 2019 Tax Working Group: ToR exclusion of family home; note that exclusion incentivises more money into owner-occupied housing  
+- 2025 RNZ–Reid Research poll: ~43% support / ~36% oppose / ~22% undecided on investment-property gains; support falls dramatically when family home included  
+- Housing as NZ’s largest / most widely held household wealth; Treasury “first rung” language  
+
+**Evidence currently held**  
+- Claims as stated in transcript (unverified)  
+
+**Strongest challenge**  
+Owner-occupied housing provides housing services and stability; taxing the family home hits mobility and cash-poor owners; political legitimacy matters for tax design.
+
+**My response**  
+Acknowledge legitimate design objections. Still name the contradiction: economically awkward, politically obvious — and it channels capital into owner-occupied housing.
+
+**Safe manuscript wording**  
+New Zealanders are not uniformly hostile to taxing property gains. Support is far stronger for investment property than for the family home. That line is political more than economic.
+
+**Possible stronger wording**  
+My $2 million gain on my Auckland home = family security. That is not tax economics. That is sacred politics.
+
+**Chapter**  
+Equal Rules, Unequal Rewards; What Made Them Rich Made Their Children Poor
+
+**Topic**  
+`tax-preferences`, `housing-and-belonging`
+
+---
+
+## Claim: Change what we tax (not merely tax capital more)
+
+**Statement**  
+A politically stronger formulation than “another capital tax” is: change what we tax. More on scarce land, economic rents, and very large inherited advantages; less on wages, productive investment, building, and entrepreneurship. Land tax may suit the book better than a blanket CGT because founder/productive gains and unreclaimed location windfalls have different economic origins.
+
+**Type**  
+Proposal / interpretation (political framing of existing Georgist orientation).
+
+**Applies to**  
+New Zealand (primary politics); both (framework).
+
+**Why it matters**  
+Answers distrust of government (“what tax are you reducing?”) and preserves the Eddy-vs-Auckland-section distinction.
+
+**Evidence needed**  
+- Link to LVT / Georgism research queue  
+- TWG design volumes (legitimate CGT objections exist — do not dismiss)  
+
+**Evidence currently held**  
+- Policy principle 8; `topics/taxing-activity-rewarding-scarcity.md`  
+- `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`  
+
+**Strongest challenge**  
+Land tax has its own politics and incidence problems; CGT and LVT are not mutually exclusive; “change what we tax” still needs revenue numbers.
+
+**My response**  
+Do not pretend design is trivial. Still prefer naming the wrong burden over simply claiming more revenue. Respect work put into a house while asking how much of the increase the owner actually created.
+
+**Safe manuscript wording**  
+Don’t just tax capital more. Change what we tax. The burden is sitting on the wrong things.
+
+**Possible stronger wording**  
+You do not particularly want to tax someone for founding a company and selling it the same way you tax someone whose section rose because the city grew around it.
+
+**Chapter**  
+Equal Rules, Unequal Rewards; Capital-Class Societies (later policy); light touch in current housing chapter
+
+**Topic**  
+`taxing-activity-rewarding-scarcity`, `tax-preferences`
+
+---
+
+## Claim: Shared Failure as diagnostic method
+
+**Statement**  
+When two substantially different systems (Sweden and New Zealand) converge on familiar failure states — housing, generational wealth, public-system strain, productivity, insecurity, social-contract fatigue — the sameness is evidence that some important causes may sit above national politics. Shared Failure becomes a research method: investigate shared structural constraints, not only national implementations.
+
+**Type**  
+Interpretation / causal-argument (clue, not proof of any listed global cause).
+
+**Applies to**  
+Both.
+
+**Why it matters**  
+Turns the country comparison from illustration into method. Prevents explaining everything through local party politics alone.
+
+**Evidence needed**  
+- Careful list of truly parallel symptoms vs rhetorical parallels  
+- Which candidate shared constraints (financialization, monetary regimes, tax competition, demographics, etc.) are load-bearing for each symptom  
+
+**Evidence currently held**  
+- `inbox/transcripts/2026-08-07-reflection-and-execution.md`  
+- `book/SHARED-FAILURE.md`; `topics/reflection-and-execution.md`  
+
+**Strongest challenge**  
+“Global forces” can become a dodge; domestic politics still chose non-correction; convergent rhetoric is not convergent mechanism.
+
+**My response**  
+Keep as clue and method, not as a finished global thesis. National failure to correct course remains charged. Difference still matters for mechanisms.
+
+**Safe manuscript wording**  
+When two very different systems produce similar errors, stop looking only at the code. Ask what dependency they share.
+
+**Possible stronger wording**  
+The sameness becomes evidence.
+
+**Chapter**  
+Management Without Correction; Capital-Class Societies; book framing
+
+**Topic**  
+`reflection-and-execution`, `politics-and-management`
+
+---
+
+## Claim: Reflection ↔ Execution (Sweden durable, NZ questionable)
+
+**Statement**  
+Sweden tends to be strong at institutionalizing and making systems durable nationally, and weaker at seeing a highly coherent system from outside itself. New Zealand tends to be strong at questioning systems and weaker at redesigning nationally and sustaining change for decades (pilots, reviews, then evaporated memory). Working lines: Sweden knows how to make systems durable; New Zealand knows how to make systems questionable. A healthy society needs both. The deeper pairing is Reflection ↔ Execution.
+
+**Type**  
+Interpretation (comparative tendency — not national destiny).
+
+**Applies to**  
+Both (asymmetric strengths).
+
+**Why it matters**  
+Gives the book a sharper Sweden/NZ contrast than welfare-state stereotypes, and explains why cross-pollination is useful.
+
+**Evidence needed**  
+- Concrete NZ cases of pilot → reversal → lost institutional memory  
+- Concrete Swedish cases where coherence blocked recognition of structural failure (careful)  
+
+**Evidence currently held**  
+- Transcript framing; existing NZ political-reversal interpretation already in ledger  
+
+**Strongest challenge**  
+Soft national-character storytelling; both countries have built and both have questioned; risk of cartoon.
+
+**My response**  
+Use as working tendency and chapter grammar, not as proof. Steelman both countries’ contrary moments.
+
+**Safe manuscript wording**  
+Sweden is unusually good at making systems stick. New Zealand is unusually good at asking why the system exists. Each needs some of what the other has.
+
+**Possible stronger wording**  
+Sweden needs New Zealand to help it ask, “Why?” New Zealand needs Sweden to help it answer, “Okay, so what are we going to build instead?”
+
+**Chapter**  
+Management Without Correction; What Is Worth Keeping; Capital-Class Societies
+
+**Topic**  
+`reflection-and-execution`, `politics-and-management`, `institutions-worth-keeping`
+
+---
+
+## Claim: Structural difficulty as personal failure (Sweden)
+
+**Statement**  
+In a highly coherent Swedish institutional path — shared institutions, expectations, norms, life trajectories — structural difficulty can be experienced as personal failure. The question drifts from “Is this system still producing what we want?” to “Why are some people failing to succeed within the system?”
+
+**Type**  
+Interpretation.
+
+**Applies to**  
+Sweden (primary); both as a risk of any coherent system.
+
+**Why it matters**  
+Connects youth alienation to the reflection deficit; protects the book from blaming individuals for systemic outcomes.
+
+**Evidence needed**  
+- Lived / qualitative support without inventing motives  
+- Careful use of youth mental-health / labour-market material if ever cited  
+
+**Evidence currently held**  
+- Author / transcript interpretation; youth topic link  
+
+**Strongest challenge**  
+Individual agency and competence still matter; not every struggle is structural; risk of romanticizing nonconformity.
+
+**My response**  
+Do not deny agency. Name the misattribution pattern when the path is nearly universal.
+
+**Safe manuscript wording**  
+When almost everyone walks the same institutional path, people who fall can experience the fall as a personal defect rather than a system signal.
+
+**Possible stronger wording**  
+The system becomes reality. Failure inside it becomes your shame.
+
+**Chapter**  
+Youth Without a Ladder; Management Without Correction
+
+**Topic**  
+`youth-and-work`, `reflection-and-execution`
+
+---
+
+## Claim: Don’t transpose institutions; transpose capabilities
+
+**Statement**  
+Learning between Sweden and New Zealand should not mean “Sweden does X, therefore New Zealand should do X.” Ask what function an institution performs, then what would perform that function inside the other country’s system. Sweden may need New Zealand-ish permission to deviate and question; New Zealand may need Swedish-ish institutional muscle and durability.
+
+**Type**  
+Proposal / interpretation.
+
+**Applies to**  
+Both.
+
+**Why it matters**  
+Underwrites Poseidon-for-NZ, school-meals-for-NZ, and all keep/copy arguments without naive legal transplant. Policy principle 11.
+
+**Evidence needed**  
+- Worked examples of function vs form in later drafting  
+
+**Evidence currently held**  
+- Existing Poseidon and school-meals function-copy proposals  
+- `inbox/transcripts/2026-08-07-reflection-and-execution.md`  
+
+**Strongest challenge**  
+“Capabilities” can stay vague; institutions are how capabilities become real; some transplants fail even as functions.
+
+**My response**  
+Capabilities must be specified through concrete institutions and functions — not slogans. That is already how Poseidon and school meals are framed.
+
+**Safe manuscript wording**  
+Don’t copy the institution. Copy the capability. Ask what function it performs, then build that function inside the other country’s system.
+
+**Possible stronger wording**  
+Sweden doesn’t need to become New Zealand. It needs some New Zealand-ish properties. New Zealand doesn’t need to become Sweden. It needs some Swedish properties.
+
+**Chapter**  
+What Is Worth Keeping; Management Without Correction; Capital-Class Societies
+
+**Topic**  
+`institutions-worth-keeping`, `reflection-and-execution`
+
+---
+
+## Claim: Attraction to machine authority
+
+**Statement**  
+People may become attracted to machine authority not because machines are wonderful, but because their experience of human authority has become so poor. The interesting question, if people would rather be managed by a machine than by another person, is not what happened to AI — it is what happened to management.
+
+**Type**  
+Interpretation / causal-argument.
+
+**Applies to**  
+Both (workplace and institutional authority); international literature as supporting context.
+
+**Why it matters**  
+Opens a Shared Failure branch beyond asset inequality: declining confidence in the humans and institutions entrusted to exercise power. Distinguishes this book’s psychological question from “will algorithms exploit?” and “can AI make management efficient?”
+
+**Evidence needed**  
+- Sugitani, Togawa & Motoki (2025) and related experiments (verify)  
+- Otago 2021 NZ AI-and-work report  
+- Lived management scenes (including Benji seed — legal care)  
+
+**Evidence currently held**  
+- `inbox/transcripts/2026-08-07-machine-authority-and-management.md`  
+- Topic: `topics/machine-authority-and-management.md`  
+- Source stubs S06–S09  
+
+**Strongest challenge**  
+Preference for machines may be novelty, specific bad bosses, or task-dependent (people still want humans for empathy); surveys and experiments do not prove a civilisational shift.
+
+**My response**  
+Do not claim people already love machine rule. Claim that poor human authority makes machine authority emotionally intelligible — and that that is already an extraordinary change.
+
+**Safe manuscript wording**  
+I don't necessarily love the machine. I no longer trust the humans.
+
+**Possible stronger wording**  
+If people would rather be managed by a machine than by another person, the interesting question isn't what happened to AI. It's what happened to management.
+
+**Chapter**  
+Management Without Correction; Youth Without a Ladder; Capital-Class Societies
+
+**Topic**  
+`machine-authority-and-management`, `politics-and-management`
+
+---
+
+## Claim: Humiliation without exploitation
+
+**Statement**  
+Removing the visible human manager does not remove power; it may merely make power harder to see. The machine may remove humiliation without removing exploitation. Algorithms can feel fairer while embedding control in software, pricing, ratings, nudges, and information asymmetries — and muted emotional response to machine judgment can make exploitation easier.
+
+**Type**  
+Interpretation / causal-argument.
+
+**Applies to**  
+Both (platform and workplace mechanisms); comparative.
+
+**Why it matters**  
+Keeps the tension intact: autonomy and relief from bad bosses can coexist with precariousness and invisible managerial power. Prevents romanticising algorithmic bosses.
+
+**Evidence needed**  
+- Rosenblat / Prassl / Aloisi & De Stefano (verify)  
+- 2025 AI-evaluation tolerance experiment (authors TBD)  
+- ALGOSH / Selberg Swedish material  
+
+**Evidence currently held**  
+- Handover synthesis; source stubs S06, S08  
+
+**Strongest challenge**  
+Some algorithmic systems reduce favoritism; unions and labour law can govern digital systems; not all platforms are equally exploitative.
+
+**My response**  
+Acknowledge real flexibility gains. Refuse the false choice between humiliating human bosses and invisible code. Ask who can negotiate the terms of algorithmic power.
+
+**Safe manuscript wording**  
+The machine may remove humiliation without removing exploitation. Removing the human manager doesn't remove power — it may merely make power harder to see.
+
+**Possible stronger wording**  
+Same — keep the pair together.
+
+**Chapter**  
+Management Without Correction; Youth Without a Ladder
+
+**Topic**  
+`machine-authority-and-management`
+
+---
+
+## Claim: Flexibility without full risk transfer
+
+**Statement**  
+Platform work can contain a genuinely emancipatory idea for people whose capacities do not fit a conventional nine-to-five — work when your capacity allows — while execution can turn that freedom into precarity, inaccessible software, or algorithmic control. The interesting question is why we cannot retain capacity-based flexibility without requiring the worker to carry all the economic risk.
+
+**Type**  
+Interpretation / proposal-adjacent. Personal seed: Benji.
+
+**Applies to**  
+Both (gig/platform presence differs); personal material NZ-family.
+
+**Why it matters**  
+Prevents dismissing the gig model wholesale; upgrades Benji from “Uber didn't work” to a sharper policy and moral question.
+
+**Evidence needed**  
+- 2025 gig-work-and-disability qualitative study (verify citation)  
+- Author-approved Benji facts  
+- NZ/Sweden platform labour rules  
+
+**Evidence currently held**  
+- Scene seed; `legal-review/benji-platform-work.md`  
+- Handover framing  
+
+**Strongest challenge**  
+Some risk transfer is inherent to contractor models; disability accommodations exist in conventional employment; one family story is not a labour market.
+
+**My response**  
+Benji illustrates the question; research must carry the generalisation. Defend the emancipatory scheduling idea without defending precarious execution.
+
+**Safe manuscript wording**  
+Why can't we keep “work when your capacity allows” without also requiring “carry all the economic risk yourself”?
+
+**Possible stronger wording**  
+Same.
+
+**Chapter**  
+Youth Without a Ladder; Management Without Correction
+
+**Topic**  
+`machine-authority-and-management`, `youth-and-work`
+
+**Legal care**  
+`legal-review/benji-platform-work.md`
+
+---
+
+## Claim: Sweden negotiates managerial power
+
+**Statement**  
+Sweden does not necessarily eliminate managerial power. It surrounds it with institutions capable of negotiating the terms under which that power is exercised — including, in the algorithmic era, local union influence over digital systems and collective agreements covering platform work. Those institutions can still feel remote, bureaucratic, and hard for individuals to identify with.
+
+**Type**  
+Interpretation (needs ALGOSH / Selberg verification).
+
+**Applies to**  
+Sweden (mechanism); New Zealand (contrast on institutional surround).
+
+**Why it matters**  
+Gives a nuanced Swedish line better than “unions good / unions bad,” and a comparative handle for NZ: who can negotiate algorithmic power?
+
+**Evidence needed**  
+- ALGOSH findings on union influence  
+- Selberg / riders’ CBA content  
+- NZ platform and algorithmic-management institutional map  
+
+**Evidence currently held**  
+- Handover notes; source stub S08  
+
+**Strongest challenge**  
+Union coverage is uneven; platform agreements may be thin; remote bureaucracy is a real cost; NZ may have other accountability channels.
+
+**My response**  
+Keep both halves: institutional surround matters, and it can still fail individuals. Do not romanticise or dismiss.
+
+**Safe manuscript wording**  
+Sweden doesn't necessarily eliminate managerial power. It surrounds it with institutions capable of negotiating the terms under which that power is exercised — and those institutions can still feel far from the person under the algorithm.
+
+**Possible stronger wording**  
+Same.
+
+**Chapter**  
+Management Without Correction; What Is Worth Keeping
+
+**Topic**  
+`machine-authority-and-management`, `institutions-worth-keeping`, `politics-and-management`
+
+---
+
+## Claim: Machine role in government no longer absurd
+
+**Statement**  
+We have not reached the point where people straightforwardly want machines to govern them. We have reached the point where giving machines a meaningful role in government no longer sounds absurd. Survey headlines about replacing MPs with algorithms must be handled carefully (question wording can confound AI with fewer politicians); more careful work often finds preference for shared decision actors rather than one dominant ruler — human or machine.
+
+**Type**  
+Interpretation (survey facts need verification before load-bearing use).
+
+**Applies to**  
+Comparative / international opinion; book’s political-authority branch.
+
+**Why it matters**  
+Sharpens an overclaim into a usable observation; connects workplace machine-authority attraction to organisational and political scale without jumping to “AI dictator.”
+
+**Evidence needed**  
+- IE 2021 survey wording and critiques  
+- German skepticism study  
+- UK 2026 shared-decision study (~69.2% figure — verify)  
+- Hidalgo / Plurality / Noveck as proposal literature, not proof of public will  
+
+**Evidence currently held**  
+- Handover summary; source stub S09  
+
+**Strongest challenge**  
+Public opinion is soft; “no longer absurd” is hard to measure; elite proposals ≠ citizen demand.
+
+**My response**  
+Use the sharpened line. Do not cite “majority want AI MPs” without the confound caveat. Point to hybrid / shared authority as the live preference candidate.
+
+**Safe manuscript wording**  
+We haven't reached the point where people straightforwardly want machines to govern them. We've reached the point where giving machines a meaningful role in government no longer sounds absurd.
+
+**Possible stronger wording**  
+Same — that is itself an extraordinary change.
+
+**Chapter**  
+Management Without Correction; Capital-Class Societies
+
+**Topic**  
+`machine-authority-and-management`, `politics-and-management`
 
 ---
 

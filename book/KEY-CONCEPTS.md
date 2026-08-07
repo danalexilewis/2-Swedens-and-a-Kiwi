@@ -4,7 +4,15 @@ Short definitions for terms the book uses repeatedly.
 
 ## Shared Failure
 
-Political and economic management that protects incumbent asset values and short-term stability without adequately managing long-term distributional consequences. See `SHARED-FAILURE.md`.
+Political and economic management that protects incumbent asset values and short-term stability without adequately managing long-term distributional consequences. Also a diagnostic method: when two substantially different systems converge on the same failure state, investigate their shared structural constraints. See `SHARED-FAILURE.md`.
+
+## Reflection ↔ Execution
+
+Two societal capacities the book uses to sharpen the Sweden / New Zealand contrast. **Capacity to act:** create institutions, coordinate, build, change incentives, make a system stick. **Capacity to observe:** step outside assumptions, describe what the society is doing, notice strange outcomes, entertain alternatives. Working tendency: Sweden stronger at action / durability; New Zealand stronger at reflection / questioning. A healthy society needs both. See `topics/reflection-and-execution.md`.
+
+## Transpose capabilities, not institutions
+
+Learn between countries by asking what *function* an institution performs, then what would perform that function inside the other country’s system — not by copying policy wholesale. Underwrites Poseidon-for-NZ, school-meals-for-NZ, and other keep/copy arguments.
 
 ## Capital-class society
 
@@ -26,6 +34,16 @@ Rules or tax mechanisms that are formally available to everyone, but whose great
 
 The emerging pattern in which the social contract that once promised security through work is replaced by dependence on family transfers and inheritance for adult stability.
 
+Stronger paired formulations (preserve both): the system became so unequal that inheritance started looking like the solution to the inequality; nobody wants to end the game because everyone is waiting for their turn to win.
+
+## Turn-to-win
+
+Political psychology in which people excluded by an asset game still defend the game because their imagined remedy is eventually joining the winning side. Used especially for New Zealand property-ladder / CGT politics. Treat as interpretation, not polling proof.
+
+## Property ladder
+
+The taught New Zealand wealth path: work → deposit → buy → mortgage → appreciate → trade up → tax-advantaged retirement asset. Metaphorically ties housing to status and progress (“get on the property ladder”).
+
 ## Skill and structural tailwind
 
 When discussing identifiable successful people: business skill and extraordinary monetary/property-market conditions can coexist. Avoid “pure luck” and avoid inventing motives.
@@ -33,6 +51,14 @@ When discussing identifiable successful people: business skill and extraordinary
 ## Argument against denial
 
 The book’s present-tense purpose: admit where past choices have brought us, even if those choices were understandable at the time.
+
+## Machine authority
+
+Attraction to algorithmic or AI-mediated bosses and decision systems — not primarily because machines are wonderful, but because human authority has felt arbitrary, humiliating, or unaccountable. Distinctive Shared Failure branch: declining confidence in the humans and institutions entrusted to exercise power. Warning: removing the human manager does not remove power; the machine may remove humiliation without removing exploitation. See `topics/machine-authority-and-management.md`.
+
+## Private government (workplace)
+
+Elizabeth Anderson’s frame: workplaces as sites of private government where employees are subject to authorities that can order and sanction with limited accountability. Useful philosophical ground for why escaping a visible human manager can feel like freedom — without proving that algorithms are freer.
 
 ## Land
 

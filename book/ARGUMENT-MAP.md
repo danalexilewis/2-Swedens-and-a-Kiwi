@@ -10,6 +10,8 @@ Unconstrained intergenerational inequality.
 
 Sweden and New Zealand protected incumbent asset values and short-term stability without adequately managing the long-term distributional consequences.
 
+Comparative under-layer (interpretation — see `topics/reflection-and-execution.md`): Sweden tends toward strong institutional execution with weaker systemic reflection; New Zealand tends toward strong questioning with weaker durable national execution. Shared Failure uses their convergent symptoms as a diagnostic for shared structural constraints — including possible drivers above the nation-state — while learning by transposing capabilities, not institutions.
+
 ## Main Mechanisms
 
 1. Housing scarcity

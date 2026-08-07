@@ -15,8 +15,9 @@ Research and framing questions that are not yet answered. Do not pretend they ar
 - How much of income goes toward housing?
 - What is the relationship between city property and rural property?
 - Are people being encouraged to treat housing as retirement infrastructure?
-- What is the history and tenure model of Poseidon housing in Guldheden (Göteborg)?
-- What exactly does a Swedish förstahandskontrakt / allmännytta tenancy guarantee versus private secondary arrangements?
+- What is the history and tenure model of Poseidon housing in Guldheden (Göteborg)? (tenure law + Poseidon institutional status sourced in S10; Guldheden development history still open)
+- ~~What exactly does a Swedish förstahandskontrakt / allmännytta tenancy guarantee versus private secondary arrangements?~~ — answered in `sources/notes/sweden-first-hand-tenure-allmannytta.md` (2026-08-07)
+- How much of Swedish rental stock is secure first-hand / allmännytta vs private residual? (chapter fact #4)
 - What are the formal terms of major Swedish rental intermediary platforms (confirm names; fee and late-payment penalty structures)?
 - How do NZ Tenancy Tribunal remedies and typical outcomes compare on landlord failure cost?
 - Does New Zealand have a tenancy-union analogue with real enforcement teeth?
@@ -36,13 +37,30 @@ Research and framing questions that are not yet answered. Do not pretend they ar
 - What would “sufficiently capped” look like without collapsing into a full tax treatise?
 - How much of New Zealand’s current tax revenue comes from labour income, company income, consumption, rates, and property-related gains?
 - How does the absence of a general recurring tax on unimproved land-value increases interact with rates and sale rules? (verify before publication)
+- Primary source for 2025 RNZ–Reid Research CGT poll (investment property vs family home wording and margins)
+- 2019 Tax Working Group: exact family-home ToR language and owner-occupied incentive note
+- Treasury wording on first home as first rung of a wealth ladder; housing as largest / most widely held household wealth
+- University of Auckland housing research citing the “property ladder” metaphor
 
 ## Inheritance and generations
 
 - When does inheritance typically arrive relative to the ages when housing and family formation decisions are made?
 - How to separate paper wealth from liquid wealth in the argument?
 - How does land-value taxation interact with the book’s argument about inheritance?
+- How often do adult children without homes politically defend family-home exemptions as their own future path? (interpretation — hard to measure; look for survey/qualitative material carefully)
 
+## CGT design (steelman queue — do not dismiss)
+
+From `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`. Legitimate objections, not a mandate to draft a tax code mid-chapter:
+
+- Inflationary vs real gains
+- Paper gains without cash / realisation vs accrual
+- Lock-in / discouraging selling
+- Loss treatment
+- Founders and productive business exits vs land windfalls
+- Farms, inherited assets, valuation at regime start
+- Interaction with productive investment incentives
+- Whether “another tax” without a named reduction is politically and fiscally coherent
 ## Productivity and risk
 
 - How many businesses never exist because potential founders cannot risk losing access to housing? (Hard to measure; what proxies exist?)
@@ -67,11 +85,41 @@ Research and framing questions that are not yet answered. Do not pretend they ar
 
 - At what points did distributional effects become clear enough that “failure to correct course” is a fair charge?
 
+## Machine authority and algorithmic management
+
+From `inbox/transcripts/2026-08-07-machine-authority-and-management.md`. Working research queue — not settled answers. Do not hijack the housing chapter.
+
+1. Verify Sugitani, Togawa & Motoki (2025): social exclusion → favourability toward algorithmic personnel assessment — methods, effect sizes, limits.
+2. Identify the 2025 AI-manager evaluation / lower-pay tolerance experiment (authors, citation, claims about muted emotional response).
+3. Verify HKUST China/US preference study: empathy vs execution tasks; human intervention after AI error.
+4. Verify 2025 qualitative gig-work-and-disability study cited in the handover.
+5. What does the Otago 2021 AI-and-work report actually say about algorithmic management, favoritism, surveillance, and power disparities?
+6. ALGOSH (Karolinska): which sectors, what findings on working conditions, and how strong is the local-union-influence claim?
+7. What did Sweden’s first food-delivery riders’ collective agreement actually cover regarding algorithms, pay, and status (Selberg and primary texts)?
+8. How should the IE 2021 “replace MPs with algorithms” survey be quoted given the fewer-politicians confound?
+9. German skepticism study and UK 2026 shared-decision study: exact findings and wording before any poll claim.
+10. What Benji facts is the author willing to publish (platform, timeline, disability framing)? See `legal-review/benji-platform-work.md`.
+11. Does NZ or Swedish public-opinion data exist on preference for algorithmic vs human managers — or only international experiments?
+- Which NZ cases best show pilot / review / strategy → political reversal → evaporated institutional memory?
+- Which Swedish cases carefully show structural difficulty misread as personal failure — without inventing motives or overclaiming national psychology?
+- Which shared contemporary symptoms are truly parallel mechanisms vs only rhetorically similar?
+- Which candidate constraints “above the nation-state” (financialization, monetary regimes, tax competition, demographics, etc.) are actually load-bearing for the book’s claims?
+
 ## Institutions worth keeping
 
 - Which Swedish and New Zealand institutions still deliver broad security or mobility and should be defended rather than dismantled?
 - How should a “Poseidon-like” proposal for NZ be specified without naive institutional transplant?
 - How should a Swedish-style school-meals function be specified for NZ (kitchens, staffing, district governance) without naive transplant?
+- What would “New Zealand-ish properties” look like inside Swedish institutions (permission to deviate, safe experimentation) without romanticizing NZ improvisation?
+- What would “Swedish-ish properties” look like inside NZ politics (institutional muscle, multi-decade objectives) without romanticizing Swedish conformity?
+
+## Reflection and execution
+
+From `inbox/transcripts/2026-08-07-reflection-and-execution.md`. Book-level framing — not a mandate to draft a philosophy chapter.
+
+- Keep Reflection ↔ Execution as scaffolding under Shared Failure, not as a standalone treatise.
+- Do not make the book philosophically heavy on reflexivity / cybernetics; the quiet under-layer is enough.
+- Steelman: both countries have built durable things and both have questioned systems.
 
 ## Land-value taxation and Georgism
 
