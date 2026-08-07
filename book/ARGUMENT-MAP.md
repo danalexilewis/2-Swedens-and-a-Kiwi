@@ -92,3 +92,24 @@ Income alone becomes insufficient to secure what a middle-class income previousl
 - The ability to take professional or entrepreneurial risks
 - A secure retirement
 - A belief that the next generation can establish itself
+
+## Relationships
+
+mechanism:: `topics/housing-and-belonging.md`
+mechanism:: `topics/taxing-activity-rewarding-scarcity.md`
+mechanism:: `topics/inheritance-and-generations.md`
+mechanism:: `topics/tax-preferences.md`
+mechanism:: `topics/politics-and-management.md`
+feeds:: `book/CHAPTER-MAP.md`
+feeds:: `chapters/what-made-them-rich-made-their-children-poor.md`
+feeds:: `chapters/the-cost-of-membership.md`
+feeds:: `chapters/equal-rules-unequal-rewards.md`
+feeds:: `chapters/the-inheritance-contract.md`
+feeds:: `chapters/house-or-company.md`
+feeds:: `chapters/no-room-for-children.md`
+feeds:: `chapters/exit-as-rational-failure.md`
+feeds:: `chapters/youth-without-a-ladder.md`
+feeds:: `chapters/id-rather-deal-with-the-machine.md`
+feeds:: `chapters/management-without-correction.md`
+feeds:: `chapters/what-is-worth-keeping.md`
+feeds:: `chapters/capital-class-societies.md`

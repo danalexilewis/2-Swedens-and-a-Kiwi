@@ -1,5 +1,7 @@
 # What Made Them Rich Made Their Children Poor
 
+Brief: Asset inflation enriched owner cohorts while locking the next generation’s security behind ownership and inheritance — secure non-owned housing as the missing alternative.
+
 Working draft. Opening scene locked to the early Poseidon / Guldheden memory. Proposal force: New Zealand should copy this kind of programme; Sweden should expand it. Private-landlord trilogy parked — not this chapter’s opening.
 
 Claim types marked lightly in brackets where useful. Do not treat bracket tags as manuscript furniture.
@@ -151,3 +153,17 @@ Copy it. Expand it. Or keep pretending ownership alone will save the next genera
 5. **NZ near-misses (wrong product)** — **done** (`sources/notes/nz-public-rental-near-misses-wrong-product.md`). IRRS/KO = need-gated welfare; Te Kāinga = right product, wrong scale. Halls→gauntlet youth path parked for *Youth Without a Ladder*.
 
 Research scratch: `.tmp/subs/20260807-housing-facts/` (do not commit as authority — source notes are the archive).
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+mechanism:: `topics/housing-and-belonging.md`
+mechanism:: `topics/inheritance-and-generations.md`
+mechanism:: `topics/tax-preferences.md`
+mechanism:: `topics/politics-and-management.md`
+texture:: `scenes/SCENE-BANK.md`
+grounds:: `sources/notes/sweden-first-hand-tenure-allmannytta.md`
+grounds:: `sources/notes/sweden-rental-scale-allmannytta-queues.md`
+grounds:: `sources/notes/nz-sweden-housing-cost-trajectories.md`
+grounds:: `sources/notes/nz-sweden-ownership-cohorts-parental-help.md`
+grounds:: `sources/notes/nz-public-rental-near-misses-wrong-product.md`

@@ -4,22 +4,40 @@ Working map of chapters. This will change. Do not finalize the whole book struct
 
 See `CURRENT.md` for the chapter under active work.
 
+Each chapter file holds a one-line **Brief** (argument job). Topics `feeds::` into chapters; chapters link back to mechanisms and the argument spine.
+
 ## Working chapter titles
 
-| Working title | Likely focus | Related topics |
-|---------------|--------------|----------------|
-| What Made Them Rich Made Their Children Poor | Intergenerational wealth and housing; turn-to-win / inheritance-as-solution | `inheritance-and-generations`, `housing-and-belonging`, `tax-preferences` |
-| The Cost of Membership | Housing as economic membership | `housing-and-belonging`, `monetary-policy-and-assets`, `taxing-activity-rewarding-scarcity` |
-| Equal Rules, Unequal Rewards | Tax preferences and capital access; change what we tax | `tax-preferences`, `taxing-activity-rewarding-scarcity` |
-| The Inheritance Contract | Family transfers, delayed adulthood, and inheritance-as-solution politics | `inheritance-and-generations`, `tax-preferences` |
-| House or Company | Risk, mortgages, and entrepreneurship | `productivity-and-risk`, `taxing-activity-rewarding-scarcity` |
-| No Room for Children | Fertility, housing, childhood security, and school meals as public floor | `fertility-and-family`, `childhood-and-school-meals` |
-| Exit as Rational Failure | Migration and brain drain | `migration-and-brain-drain` |
-| Youth Without a Ladder | Work, wages, and blocked security | `youth-and-work`, `reflection-and-execution` |
-| I'd Rather Deal with the Machine | Declining confidence in human authority; algorithmic management; humiliation vs exploitation | `machine-authority-and-management`, `politics-and-management`, `youth-and-work` |
-| Management Without Correction | Political failure to change course; authority and accountability | `politics-and-management`, `reflection-and-execution` |
-| What Is Worth Keeping | Institutions that still work; keep/copy functions (Poseidon; capability transposition) | `institutions-worth-keeping`, `reflection-and-execution` |
-| Capital-Class Societies | Destination and denial | Core thesis / final third; `reflection-and-execution`, `taxing-activity-rewarding-scarcity` |
+| Working title | File | Brief | Related topics |
+|---------------|------|-------|----------------|
+| What Made Them Rich Made Their Children Poor | `chapters/what-made-them-rich-made-their-children-poor.md` | Asset inflation locked security behind ownership/inheritance | `inheritance-and-generations`, `housing-and-belonging`, `tax-preferences` |
+| The Cost of Membership | `chapters/the-cost-of-membership.md` | Housing as the price of economic membership | `housing-and-belonging`, `monetary-policy-and-assets`, `taxing-activity-rewarding-scarcity` |
+| Equal Rules, Unequal Rewards | `chapters/equal-rules-unequal-rewards.md` | Equal-looking tax rules amplify capital advantage | `tax-preferences`, `taxing-activity-rewarding-scarcity` |
+| The Inheritance Contract | `chapters/the-inheritance-contract.md` | Adult stability becomes an inheritance contract | `inheritance-and-generations`, `tax-preferences` |
+| House or Company | `chapters/house-or-company.md` | Innovation demanded while security punishes risk | `productivity-and-risk`, `taxing-activity-rewarding-scarcity` |
+| No Room for Children | `chapters/no-room-for-children.md` | Family formation stalls without housing and public floors | `fertility-and-family`, `childhood-and-school-meals` |
+| Exit as Rational Failure | `chapters/exit-as-rational-failure.md` | Leaving is rational for the person, failure for the nation | `migration-and-brain-drain` |
+| Youth Without a Ladder | `chapters/youth-without-a-ladder.md` | Work pays for life but no longer buys security | `youth-and-work`, `reflection-and-execution` |
+| I'd Rather Deal with the Machine | `chapters/id-rather-deal-with-the-machine.md` | Poor human authority pulls people toward machines | `machine-authority-and-management`, `politics-and-management`, `youth-and-work` |
+| Management Without Correction | `chapters/management-without-correction.md` | Failure to correct course once effects were visible | `politics-and-management`, `reflection-and-execution` |
+| What Is Worth Keeping | `chapters/what-is-worth-keeping.md` | Critique is not a licence to burn what still works | `institutions-worth-keeping`, `reflection-and-execution` |
+| Capital-Class Societies | `chapters/capital-class-societies.md` | Destination: family ownership decides life chances | Core thesis / final third; `reflection-and-execution`, `taxing-activity-rewarding-scarcity` |
+
+## Relationships
+
+spine:: `book/ARGUMENT-MAP.md`
+feeds:: `chapters/what-made-them-rich-made-their-children-poor.md`
+feeds:: `chapters/the-cost-of-membership.md`
+feeds:: `chapters/equal-rules-unequal-rewards.md`
+feeds:: `chapters/the-inheritance-contract.md`
+feeds:: `chapters/house-or-company.md`
+feeds:: `chapters/no-room-for-children.md`
+feeds:: `chapters/exit-as-rational-failure.md`
+feeds:: `chapters/youth-without-a-ladder.md`
+feeds:: `chapters/id-rather-deal-with-the-machine.md`
+feeds:: `chapters/management-without-correction.md`
+feeds:: `chapters/what-is-worth-keeping.md`
+feeds:: `chapters/capital-class-societies.md`
 
 ## Chapter grammar reminder
 
