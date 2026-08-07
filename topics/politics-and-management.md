@@ -6,6 +6,8 @@ Sweden and New Zealand protected incumbent asset values and short-term stability
 
 *(interpretation)*
 
+Related branch (declining confidence in human authority; algorithmic / machine management): `topics/machine-authority-and-management.md`.
+
 ## Why It Matters
 
 Without course correction, the system becomes harder to reform as political power aligns with older asset owners. Denial in the present is the target of the book.
@@ -17,6 +19,7 @@ Without course correction, the system becomes harder to reform as political powe
 - Political reversals that waste institutional capacity
 - Housing and tax politics constrained by owner coalitions
 - Short-term stability prioritized over distributional repair
+- Strong cultural capacity to question (“why do we do it that way?”) with weaker capacity to redesign nationally and sustain change for decades — pilots, reviews, strategies, then evaporated institutional memory (see `reflection-and-execution`)
 
 *(interpretation + evidence needed)*
 
@@ -24,12 +27,13 @@ Without course correction, the system becomes harder to reform as political powe
 
 - Political constraints around asset values and household debt
 - Management culture that may prioritize consensus and stability over distributional honesty
+- Strong capacity to institutionalize and make systems durable nationally; weaker capacity to see a coherent system from outside itself — structural difficulty can be misread as personal failure (see `reflection-and-execution`)
 
 *(interpretation + evidence needed)*
 
 ## Important Differences
 
-Party systems, electoral incentives, and institutional capacity differ. Shared pattern: failure to correct after distributional effects were visible.
+Party systems, electoral incentives, and institutional capacity differ. Strengths may be almost orthogonal: Sweden durable execution; New Zealand questioning / improvisation. Shared pattern: failure to correct after distributional effects were visible — and convergent symptoms that invite looking above national politics for shared constraints.
 
 ## Common Mechanism
 
@@ -88,3 +92,4 @@ _To be added._
 - The book is not primarily a trial of the past. It is an argument against denial in the present.
 - Some emergency decisions may have been reasonable. The failure was not correcting course.
 - New Zealand wastes institutional capacity through political reversal.
+- Sweden knows how to make systems durable. New Zealand knows how to make systems questionable.

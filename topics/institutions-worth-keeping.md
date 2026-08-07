@@ -24,7 +24,7 @@ Institutions that still deliver: elements of the welfare model, education, admin
 
 Candidate from lived experience (to source, not romanticize):
 
-- **Poseidon-style / allmännytta first-hand rental:** secure modest flats; profit recycled into more housing; lets young people study, save, and take risk without living with parents. Author: Sweden has not got enough of it.
+- **Poseidon-style / allmännytta first-hand rental:** secure modest flats with day-one tenure protection under first-hand *hyresrätt*; municipal company form (Poseidon) delivers that at city scale with housing-supply mission and mostly reinvested surplus — see S10. Author: Sweden has not got enough of it.
 - **Hyresgästföreningen:** tenancy union with enough force to matter in disputes (lived use; outcomes still unresolved in one case).
 - **Universal school meals:** every school day, children are fed — not gourmet, not junk; local cooks and kitchens; relief for parents; floor under childhood hunger. See `topics/childhood-and-school-meals.md` (Mark / Styrsö scene). Author force: New Zealand should copy the function — school kitchens, district coordination, feed every child — not centralised commercial catering patches.
 
@@ -34,9 +34,13 @@ Candidate from lived experience (to source, not romanticize):
 
 What is worth keeping is country-specific. Do not import Swedish institutions as NZ solutions or vice versa without argument.
 
+Author rule (owned): **Don’t transpose institutions. Transpose capabilities.** Ask what *function* the institution performs, then what would perform that function inside the other country’s system. Poseidon-for-NZ and school-meals-for-NZ are capability / function transplants, not legal drop-ins. See `topics/reflection-and-execution.md`.
+
 Author proposal (owned as proposal): **New Zealand should copy** the function of Poseidon-style secure modest rental; **Sweden should expand** what it already knows how to do. Not a naive legal transplant — the security function: non-provisional modest housing so youth can study, save, and take risk without parental co-residence. NZ private rental may function better than Sweden’s private secondary market, but NZ still lacks this institution at scale.
 
 Second proposal force (owned): **New Zealand should copy** the function of Swedish school meals — kitchens in schools, daily food for every child, local cooks with purchasing control — organised through stronger district-level education governance rather than fragmented independent ownership and capitalistic centralised commercial facilities. Building the kitchens is also an infrastructure and jobs project. See `topics/childhood-and-school-meals.md`.
+
+Cross-pollination force (owned as interpretation / proposal): Sweden may need New Zealand-ish properties — permission to deviate, normalize questioning, experimentation socially safe, solidarity without cultural uniformity. New Zealand may need Swedish-ish properties — institutional muscle, twenty-year national objectives, institutions that survive governments.
 
 ## Common Mechanism
 
@@ -92,6 +96,7 @@ _To be added._
 
 - Criticism of Shared Failure is not a mandate to burn everything that still works.
 - Preserve competence. Limit compounding.
+- Don’t transpose institutions. Transpose capabilities.
 - Small apartments that do not get pulled out from under you.
 - A simple model: secure rent, company profit, more apartments built.
 - Feeding children is pretty easy. Coordinate tax dollars; stop routing childhood food through supermarket margins and centralised commercial catering.

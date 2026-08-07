@@ -110,13 +110,11 @@ _To be added._ Official NZ poverty and education stats; Swedish Skolverket / mun
 
 ## Possible Chapter Use
 
-- What Is Worth Keeping (Swedish keep; NZ copy the function)
-- Youth Without a Ladder (childhood floor under later adult membership)
-- No Room for Children (adjacent — childhood security, not only fertility)
-- Management Without Correction (knowing children go hungry at school and failing to fix it)
+- **No Room for Children** (home chapter — fertility, housing, childhood security, school meals as public floor)
+- May surface lightly as keep/copy colour in What Is Worth Keeping; do not treat that as a second home
 - Not a hijack of the current housing chapter draft
 
-Working label only — do not assume a standalone “school meals” chapter without reviewing the chapter map. Do **not** turn this topic into a curriculum or pedagogy chapter.
+Do **not** assume a standalone school-meals chapter. Do **not** turn this topic into a curriculum or pedagogy chapter.
 
 ## Memorable Lines
 

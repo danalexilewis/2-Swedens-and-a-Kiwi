@@ -20,6 +20,9 @@ What institutions, policies, cultural assumptions, and historical decisions prod
 - Limited taxation of ordinary long-held housing gains (to be confirmed with sources)
 - Strong cultural expectation of ownership as the path to security
 - City vs rural property dynamics
+- **Property ladder as taught wealth strategy:** work → deposit → buy → mortgage → appreciate → trade up → tax-advantaged retirement asset. Language (“get on the property ladder”) ties housing to status and progress *(interpretation — Auckland housing research + Treasury “first rung” claims need sources)*
+- **Turn-to-win politics:** when CGT is proposed, many hear “changing the rules just before I get my turn,” not tax neutrality *(interpretation)*
+- Family home treated as almost sacred; political distinction between investment-property gains and owner-occupied windfalls *(interpretation)*
 
 *(facts and mechanisms — evidence needed)*
 
@@ -31,9 +34,10 @@ What institutions, policies, cultural assumptions, and historical decisions prod
 - Rental and ownership structures distinct from New Zealand
 - Urban concentration and belonging questions
 - **First-hand / allmännytta-style security vs private secondary market** — lived contrast: Poseidon/Guldheden tenure that “felt like ours” versus post-return private renting without a förstahandskontrakt (see scene bank; transcript `2026-08-05-poseidon-vs-private-rent.md`)
+- **Legal package (sourced):** first-hand *hyresrätt* = day-one *besittningsskydd* under Jordabalken ch. 12 + constrained rent-setting; andrahand / private-home letting much weaker or no tenure security. Allmännytta/Poseidon = municipal company form delivering that tenure at city scale (housing-supply mission; businesslike principles; mostly reinvested surplus). Tenure law is **not** exclusive to municipal companies — see `sources/notes/sweden-first-hand-tenure-allmannytta.md`
 - Private market experienced as often amateur (owners with extra flats), plus intermediary platforms that can shift power further toward landlords (confirm company mechanics with sources; legal care for named parties)
 
-*(facts and mechanisms — evidence needed)*
+*(mechanisms — legal tenure sourced; scale and intermediaries still open)*
 
 ## Important Differences
 
@@ -46,6 +50,8 @@ Author reading from lived experience: New Zealand’s private rental market func
 Housing and related assets rise faster than wages; existing owners gain wealth and borrowing power; non-owners pay owners for access; family help becomes decisive.
 
 Related land-value mechanism: public investment and community activity raise location value; owners capture appreciation; renters help fund the city without receiving the increase in the price of belonging. See `topics/taxing-activity-rewarding-scarcity.md`.
+
+Asset-based inequality’s political genius: it recruits some of the losers into defending the mechanism because they still hope to become winners (casino-queue / turn-to-win). See `topics/tax-preferences.md` and `topics/inheritance-and-generations.md`.
 
 *(causal-argument — to be supported)*
 
@@ -92,15 +98,16 @@ The argument is not that no one without inheritance ever buys. It is that owners
 - How much of income goes toward housing?
 - City property vs rural property relationship
 - Evidence that housing is treated as retirement infrastructure
-- Poseidon / Guldheden history and tenure model
-- What förstahandskontrakt / allmännytta actually guarantee vs private secondary contracts
+- Poseidon / Guldheden history (development story still open)
+- ~~What förstahandskontrakt / allmännytta actually guarantee vs private secondary contracts~~ — sourced: `sources/notes/sweden-first-hand-tenure-allmannytta.md`
+- Scale of secure first-hand / allmännytta stock vs private residual (chapter fact #4)
 - Intermediary rental platforms in Sweden (confirm names, fee/penalty structures)
 - NZ Tenancy Tribunal remedies and typical landlord failure costs
 - Whether NZ has a tenancy union analogue with real teeth
 
 ## Sources
 
-_To be added after source notes are created._
+- S10: `sources/notes/sweden-first-hand-tenure-allmannytta.md`
 
 ## Possible Chapter Use
 
@@ -118,3 +125,10 @@ _To be added after source notes are created._
 - Even though we were renting, it felt like ours.
 - Small boxes that do not get pulled out from under you.
 - The renter helps pay for the city. The landowner receives the increase in the price of belonging to it.
+- Get on the property ladder.
+- You are changing the rules just before I get my turn.
+
+## Related inbox
+
+- `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md` (ladder / turn-to-win / family-home politics)
+- `inbox/transcripts/2026-08-05-poseidon-vs-private-rent.md`

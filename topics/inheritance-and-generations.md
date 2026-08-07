@@ -4,11 +4,15 @@
 
 The wealth created through decades of property and asset inflation is becoming intergenerational power.
 
+Stronger formulation (preserve both): the system became so unequal that inheritance started looking like the solution to the inequality. Underneath: nobody wants to end the game because everyone is waiting for their turn to win.
+
 *(interpretation / causal-argument)*
 
 ## Why It Matters
 
 When adult stability depends on family transfers, the social contract becomes an inheritance contract. Timing matters: inheritance often arrives too late for housing and family formation decisions.
+
+The darker generational promise: work hard, rent, wait for your parents to die, inherit their property wealth, and finally acquire security. That is an extraordinary deterioration in the social contract. CGT politics can accidentally reinforce it — an adult child excluded by housing inflation defending untaxed parental gains that caused much of their exclusion (“Don’t tax Dad’s house. That’s how I’m eventually going to afford mine.”).
 
 *(interpretation)*
 
@@ -18,6 +22,8 @@ When adult stability depends on family transfers, the social contract becomes an
 - Parental assistance for deposits
 - Political power of older property-owning voters
 - Cost of supporting long retirements
+- Turn-to-win psychology around property gains and CGT: losers of the system can still defend it because their imagined solution is joining the winning side *(interpretation — not proved from polling)*
+- Family-home politics: support for taxing investment-property gains can coexist with hostility to taxing the main residence *(fact — needs RNZ–Reid Research 2025 citation)*
 
 *(mechanisms — evidence needed)*
 
@@ -93,3 +99,11 @@ _To be added._
 - The old generation received the social contract and the capital gain. The next generation receives the invoice and waits for the inheritance.
 - The social contract is becoming an inheritance contract.
 - Wealth on paper is not the same as liquid help when you need a home.
+- The system became so unequal that inheritance started looking like the solution to the inequality.
+- Nobody wants to end the game because everyone is waiting for their turn to win.
+- Work hard, rent, wait for your parents to die, inherit their property wealth, and finally acquire security.
+- Don’t tax Dad’s house. That’s how I’m eventually going to afford mine.
+
+## Source notes
+
+- `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`

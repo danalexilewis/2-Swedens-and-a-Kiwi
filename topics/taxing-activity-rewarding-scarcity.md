@@ -26,6 +26,10 @@ Against: a tax and economic system that can reward ownership of scarce land more
 
 Clarifying line: I am not against capital. I am against a system that rewards controlling scarcity more reliably than creating abundance.
 
+Political framing that fits this position: don’t just tax capital more — change what we tax. More on scarce land, economic rents, and very large inherited advantages; less on wages, productive investment, building, and entrepreneurship. A blanket CGT can blur founder/productive-capital gains with unreclaimed location windfalls; land tax targets the latter more cleanly.
+
+Respect the work someone put into their house (mortgage, renovation, interest-rate risk, maintenance, deferred consumption) while still asking: how much of the increase did they actually create?
+
 ## New Zealand
 
 - Productive chains (investment → design → materials → wages → completed housing → sale/operation) create visible, repeatedly measured taxable income and consumption
@@ -99,7 +103,7 @@ Workers and builders whose activity is repeatedly taxed; renters who help fund t
 
 ## Personal Material
 
-_None yet as lived scenes. Conceptual scene seeds in `scenes/SCENE-BANK.md`. Source note: `inbox/transcripts/2026-08-07-taxing-activity-rewarding-scarcity.md`._
+_None yet as lived scenes. Conceptual scene seeds in `scenes/SCENE-BANK.md`. Sources: `inbox/transcripts/2026-08-07-taxing-activity-rewarding-scarcity.md`; `inbox/transcripts/2026-08-07-political-con-cgt-turn-to-win.md`._
 
 ## Strongest Counterargument
 
@@ -158,3 +162,6 @@ Best as a central economic mechanism introduced earlier and returned to in later
 - Tax the value society creates in land more. Tax the work people do and the things they build less.
 - I am not against capital. I am against a system that rewards controlling scarcity more reliably than creating abundance.
 - The renter helps pay for the city. The landowner receives the increase in the price of belonging to it.
+- How much of this increase did you actually create?
+- Don’t just tax capital more. Change what we tax.
+- Founding Eddy and selling it is not the same economic origin as an Auckland section rising because the city grew around it.

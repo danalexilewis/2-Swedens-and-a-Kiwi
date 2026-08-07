@@ -25,6 +25,7 @@ If ambitious young people cannot see a path from contribution to security, trust
 - Employment structures, conformity pressures, and youth pathways
 - Relationship between secure employment norms and blocked ownership
 - Secure first-hand rental as a ladder for study, saving, and risk-taking in a small flat (Poseidon-type experience) — vs blocked access later without that contract
+- In a highly coherent institutional path, structural difficulty can be experienced as **personal failure** (see `reflection-and-execution`)
 
 *(evidence needed)*
 
@@ -56,6 +57,7 @@ Lived experience of work not translating into the security promised by the idea 
 
 - Early Sweden: dropout from NZ uni; tiny secure rental; first feeling of freedom from grind while still housed
 - Proposal force: youth need security that is not parental co-residence and not provisional private rent
+- Cross-link: Benji / platform flexibility vs risk transfer — see `machine-authority-and-management` and `legal-review/benji-platform-work.md`
 
 *(personal-experience)*
 
@@ -91,3 +93,4 @@ _To be added._
 
 - Work pays for life. Capital determines whether you can build security.
 - Politics treats the possible departure of a few multimillionaires as an emergency while treating the departure of ambitious young people as normal.
+- Structural difficulty experienced as personal failure.
