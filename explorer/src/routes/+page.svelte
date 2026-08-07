@@ -15,7 +15,12 @@
 	import RingZones from '$lib/RingZones.svelte';
 	import HierarchyBands from '$lib/HierarchyBands.svelte';
 	import FitOnMount from '$lib/FitOnMount.svelte';
-	import { layoutRing, layoutHierarchy, type ViewMode } from '$lib/layout';
+	import {
+		layoutRing,
+		layoutHierarchy,
+		FOLDER_ORDER,
+		type ViewMode
+	} from '$lib/layout';
 	import { folderColor } from '$lib/colors';
 	import {
 		getFolderDescription,
@@ -27,6 +32,12 @@
 		type FocusTarget,
 		type FocusSets
 	} from '$lib/focus';
+	import {
+		RELATION_COLORS,
+		RELATION_LABELS,
+		RELATION_TYPES,
+		type RelationType
+	} from '$lib/relationTypes';
 	import { ringFileOrder, adjacentOnRing } from '$lib/ringNavigate';
 	import type { DialogNavigation } from '$lib/ringNavigate';
 	import type { PageData } from './$types';
@@ -46,9 +57,21 @@
 	let hovered = $state<FocusTarget>(null);
 	/** Bumped when opening a category dialog so the camera reframes the ring. */
 	let ringFocusTick = $state(0);
+	let enabledRelations = $state<Record<RelationType, boolean>>(
+		Object.fromEntries(
+			RELATION_TYPES.map((t) => [t, t !== 'mentions'])
+		) as Record<RelationType, boolean>
+	);
+	/** Archive folders removed from the ring/hierarchy layout this session. */
+	let hiddenFolders = $state<Set<string>>(new Set());
 
-	const ring = $derived(layoutRing(data.files));
-	const hierarchy = $derived(layoutHierarchy(data.files));
+	const visibleFiles = $derived(
+		data.files.filter((f) => !hiddenFolders.has(f.folder))
+	);
+	const visibleFileIds = $derived(new Set(visibleFiles.map((f) => f.id)));
+
+	const ring = $derived(layoutRing(visibleFiles));
+	const hierarchy = $derived(layoutHierarchy(visibleFiles));
 	const fileById = $derived(new Map(data.files.map((f) => [f.id, f])));
 
 	const readingFile = $derived(
@@ -59,10 +82,26 @@
 		readingFolder ? getFolderDescription(readingFolder) : null
 	);
 
-	const folders = $derived(
-		viewMode === 'radial'
-			? ring.zones.map((z) => z.folder)
-			: hierarchy.bands.map((b) => b.folder)
+	/** Full archive folder list for the legend (includes hidden categories). */
+	const folders = $derived.by(() => {
+		const present = new Set(data.files.map((f) => f.folder));
+		return [
+			...FOLDER_ORDER.filter((f) => present.has(f)),
+			...[...present].filter((f) => !FOLDER_ORDER.includes(f)).sort()
+		];
+	});
+
+	const visibleFolderCount = $derived(
+		folders.filter((f) => !hiddenFolders.has(f)).length
+	);
+
+	const visibleEdges = $derived(
+		data.edges.filter(
+			(e) =>
+				enabledRelations[e.type] &&
+				visibleFileIds.has(e.source) &&
+				visibleFileIds.has(e.target)
+		)
 	);
 
 	/**
@@ -70,7 +109,7 @@
 	 * Hover must not rebuild nodes/edges — that replaces every object identity,
 	 * which re-fires pointerenter/leave under a moving viewport and loops.
 	 */
-	const focusSets = $derived(resolveFocus(pinned, data.files, data.edges));
+	const focusSets = $derived(resolveFocus(pinned, visibleFiles, visibleEdges));
 
 	/** Ring/legend preview: cheap SVG opacity, no graph rebuild. */
 	const activeFolder = $derived(
@@ -124,46 +163,93 @@
 		});
 	}
 
-	function buildEdges(focus: FocusSets): Edge[] {
+	function buildEdges(focus: FocusSets, edgesIn: typeof data.edges): Edge[] {
 		const focusing = focus.edgeIds.size > 0;
 		const edgeType = viewMode === 'hierarchy' ? 'default' : 'straight';
 
-		return data.edges.map((e) => {
+		return edgesIn.map((e) => {
 			const active = focusing && focus.edgeIds.has(e.id);
-			const sourceFolder = fileById.get(e.source)?.folder;
-			const color = active
-				? folderColor(focus.accentFolder ?? sourceFolder ?? 'root')
-				: 'rgba(255,255,255,0.28)';
+			const color = RELATION_COLORS[e.type];
 
 			return {
 				id: e.id,
 				source: e.source,
 				target: e.target,
 				type: edgeType,
+				label:
+					active && e.type !== 'mentions' ? RELATION_LABELS[e.type] : undefined,
+				labelStyle: active
+					? 'fill: #e8eaed; font-size: 9px; font-weight: 600'
+					: undefined,
+				labelBgStyle: active ? 'fill: #12151a; fill-opacity: 0.85' : undefined,
 				animated: active,
 				style: active
 					? `stroke: ${color}; stroke-width: 2.5; opacity: 1`
-					: `stroke: ${color}; stroke-width: 1; opacity: ${focusing ? 0.22 : 0.55}`,
-				zIndex: active ? 4 : 0
+					: `stroke: ${color}; stroke-width: ${e.type === 'mentions' ? 1 : 1.4}; opacity: ${focusing ? 0.22 : e.type === 'mentions' ? 0.45 : 0.7}`,
+				zIndex: active ? 4 : e.type === 'mentions' ? 0 : 1
 			};
 		});
 	}
 
 	// Seed with a full layout so fitView does not run against an empty graph.
 	let nodes = $state.raw<Node[]>(
-		buildNodes('', resolveFocus(null, data.files, data.edges))
+		buildNodes('', resolveFocus(null, visibleFiles, visibleEdges))
 	);
 	let edges = $state.raw<Edge[]>(
-		buildEdges(resolveFocus(null, data.files, data.edges))
+		buildEdges(resolveFocus(null, visibleFiles, visibleEdges), visibleEdges)
 	);
 
 	$effect(() => {
 		const focus = focusSets;
 		void viewMode;
 		void positionedFiles;
+		void enabledRelations;
+		void hiddenFolders;
 		nodes = buildNodes(filter, focus);
-		edges = buildEdges(focus);
+		edges = buildEdges(focus, visibleEdges);
 	});
+
+	function toggleRelation(type: RelationType) {
+		enabledRelations = {
+			...enabledRelations,
+			[type]: !enabledRelations[type]
+		};
+	}
+
+	function clearFocusForFolder(folder: string) {
+		if (readingFolder === folder) readingFolder = null;
+		if (pinned?.kind === 'folder' && pinned.id === folder) pinned = null;
+		if (hovered?.kind === 'folder' && hovered.id === folder) hovered = null;
+
+		const reading = readingId ? fileById.get(readingId) : null;
+		if (reading?.folder === folder) readingId = null;
+
+		if (pinned?.kind === 'node') {
+			const file = fileById.get(pinned.id);
+			if (file?.folder === folder) pinned = null;
+		}
+		if (hovered?.kind === 'node') {
+			const file = fileById.get(hovered.id);
+			if (file?.folder === folder) hovered = null;
+		}
+	}
+
+	function toggleFolderVisibility(folder: string) {
+		const next = new Set(hiddenFolders);
+		if (next.has(folder)) {
+			next.delete(folder);
+			hiddenFolders = next;
+			return;
+		}
+		if (visibleFolderCount <= 1) return;
+		next.add(folder);
+		hiddenFolders = next;
+		clearFocusForFolder(folder);
+	}
+
+	function isFolderVisible(folder: string) {
+		return !hiddenFolders.has(folder);
+	}
 
 	function pinTarget(next: FocusTarget) {
 		pinned = togglePin(pinned, next);
@@ -263,6 +349,17 @@
 			return;
 		}
 
+		if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+			if (isTypingTarget(e.target)) return;
+			if (galleryOpen) return;
+			if (readingId || readingFolder) return;
+			if (viewMode !== 'radial') return;
+			e.preventDefault();
+			const direction = e.key === 'ArrowLeft' ? 'anticlockwise' : 'clockwise';
+			navigateRing(direction);
+			return;
+		}
+
 		if (e.key !== ' ' && e.code !== 'Space') return;
 		if (isTypingTarget(e.target)) return;
 		if (e.repeat) return;
@@ -295,12 +392,25 @@
 		};
 	});
 
+	function ringFocusNodeId(): string | null {
+		if (readingId) return readingId;
+		if (pinned?.kind === 'node') return pinned.id;
+		if (hovered?.kind === 'node') return hovered.id;
+		return null;
+	}
+
 	function navigateRing(direction: 'clockwise' | 'anticlockwise') {
-		if (!readingId || ringNavOrder.length < 2) return;
-		const nextId = adjacentOnRing(ringNavOrder, readingId, direction);
+		if (ringNavOrder.length < 2) return;
+
+		const anchorId = ringFocusNodeId() ?? ringNavOrder[0];
+		if (!anchorId) return;
+
+		const nextId = adjacentOnRing(ringNavOrder, anchorId, direction);
 		if (!nextId) return;
-		readingId = nextId;
+
 		pinned = { kind: 'node', id: nextId };
+		if (readingId) readingId = nextId;
+		setHovered(null);
 	}
 
 	const folderNavOrder = $derived(
@@ -342,7 +452,13 @@
 	}
 
 	function onLegendClick(folder: string) {
+		if (!isFolderVisible(folder)) return;
 		openFolderDialog(folder);
+	}
+
+	function onLegendVisibilityClick(e: MouseEvent, folder: string) {
+		e.stopPropagation();
+		toggleFolderVisibility(folder);
 	}
 
 	function setView(mode: ViewMode) {
@@ -352,9 +468,9 @@
 		setHovered(null);
 		// Rebuild for the new layout before {#key viewMode} remounts SvelteFlow,
 		// so fitView frames the whole graph instead of the previous layout.
-		const focus = resolveFocus(null, data.files, data.edges);
+		const focus = resolveFocus(null, visibleFiles, visibleEdges);
 		nodes = buildNodes(filter, focus);
-		edges = buildEdges(focus);
+		edges = buildEdges(focus, visibleEdges);
 	}
 </script>
 
@@ -362,10 +478,15 @@
 	<div class="chrome">
 		<div class="brand">
 			<strong>Two Swedens explorer</strong>
-			<span class="count"
-				>{data.files.length} files · {data.edges.length} links · click ring or legend
-				for category · click node to read · Space for cards</span
-			>
+			<span class="count">
+				{#if hiddenFolders.size > 0}
+					{visibleFiles.length} of {data.files.length} files · {visibleEdges.length} links
+				{:else}
+					{data.files.length} files · {data.edges.length} links
+				{/if}
+				· eye to hide category · click ring or legend for category · click node to
+				read · Space for cards
+			</span>
 		</div>
 
 		<div class="views" role="group" aria-label="Layout">
@@ -388,19 +509,96 @@
 			bind:value={filter}
 			spellcheck="false"
 		/>
-		<div class="legend">
-			{#each folders as folder}
+		<div class="relations" role="group" aria-label="Relationship types">
+			{#each RELATION_TYPES as type}
 				<button
 					type="button"
+					class="relation-chip"
+					class:active={enabledRelations[type]}
+					onclick={() => toggleRelation(type)}
+					title={type === 'mentions'
+						? 'Untyped path mentions'
+						: `Show ${type} links`}
+				>
+					<i style:background={RELATION_COLORS[type]}></i>
+					{RELATION_LABELS[type]}
+				</button>
+			{/each}
+		</div>
+		<div class="legend" role="group" aria-label="Categories">
+			{#each folders as folder}
+				{@const visible = isFolderVisible(folder)}
+				{@const lastVisible = visible && visibleFolderCount <= 1}
+				<div
 					class="legend-item"
 					class:active={activeFolder === folder || pinnedFolder === folder}
+					class:hidden={!visible}
 					onpointerenter={() => onLegendEnter(folder)}
 					onpointerleave={onLegendLeave}
-					onclick={() => onLegendClick(folder)}
 				>
-					<i style:background={folderColor(folder)}></i>
-					{folder}
-				</button>
+					<button
+						type="button"
+						class="legend-label"
+						onclick={() => onLegendClick(folder)}
+						disabled={!visible}
+						title={visible
+							? `Open ${folder} category`
+							: `${folder} is hidden — use the eye to show`}
+					>
+						<i style:background={folderColor(folder)}></i>
+						{folder}
+					</button>
+					<button
+						type="button"
+						class="legend-eye"
+						class:off={!visible}
+						aria-pressed={visible}
+						aria-label={visible ? `Hide ${folder}` : `Show ${folder}`}
+						title={lastVisible
+							? 'Keep at least one category visible'
+							: visible
+								? `Hide ${folder}`
+								: `Show ${folder}`}
+						disabled={lastVisible}
+						onclick={(e) => onLegendVisibilityClick(e, folder)}
+					>
+						{#if visible}
+							<svg
+								width="12"
+								height="12"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								aria-hidden="true"
+							>
+								<path
+									d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+								/>
+								<circle cx="12" cy="12" r="3" />
+							</svg>
+						{:else}
+							<svg
+								width="12"
+								height="12"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								aria-hidden="true"
+							>
+								<path
+									d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"
+								/>
+								<path
+									d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"
+								/>
+								<path d="M14.12 14.12a3 3 0 1 1-4.24-4.24" />
+								<line x1="1" y1="1" x2="23" y2="23" />
+							</svg>
+						{/if}
+					</button>
+				</div>
 			{/each}
 		</div>
 	</div>
@@ -570,6 +768,53 @@
 		border-color: transparent;
 	}
 
+	.relations {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.3rem;
+		width: 100%;
+		order: 5;
+	}
+
+	.relation-chip {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.28rem;
+		appearance: none;
+		border: 1px solid rgba(255, 255, 255, 0.12);
+		border-radius: 999px;
+		background: transparent;
+		color: rgba(232, 234, 237, 0.45);
+		font-size: 0.68rem;
+		padding: 0.2rem 0.5rem;
+		cursor: pointer;
+		opacity: 0.55;
+		transition:
+			opacity 120ms ease,
+			background 120ms ease,
+			color 120ms ease,
+			border-color 120ms ease;
+	}
+
+	.relation-chip.active {
+		opacity: 1;
+		color: #e8eaed;
+		background: rgba(255, 255, 255, 0.06);
+		border-color: rgba(255, 255, 255, 0.18);
+	}
+
+	.relation-chip:not(.active):hover {
+		opacity: 0.85;
+		color: rgba(232, 234, 237, 0.75);
+	}
+
+	.relation-chip i {
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+		display: inline-block;
+	}
+
 	.legend {
 		display: flex;
 		flex-wrap: wrap;
@@ -580,17 +825,17 @@
 	.legend-item {
 		display: inline-flex;
 		align-items: center;
-		gap: 0.3rem;
+		gap: 0.15rem;
 		font-size: 0.7rem;
 		color: rgba(232, 234, 237, 0.65);
-		padding: 0.2rem 0.45rem;
+		padding: 0.15rem 0.2rem 0.15rem 0.35rem;
 		border-radius: 4px;
-		cursor: pointer;
 		border: none;
 		background: transparent;
 		transition:
 			background 120ms ease,
-			color 120ms ease;
+			color 120ms ease,
+			opacity 120ms ease;
 	}
 
 	.legend-item:hover,
@@ -599,11 +844,67 @@
 		color: #e8eaed;
 	}
 
-	.legend-item i {
+	.legend-item.hidden {
+		opacity: 0.45;
+		color: rgba(232, 234, 237, 0.4);
+	}
+
+	.legend-item.hidden:hover {
+		opacity: 0.75;
+	}
+
+	.legend-label {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.3rem;
+		appearance: none;
+		border: none;
+		background: transparent;
+		color: inherit;
+		font: inherit;
+		padding: 0.05rem 0.15rem;
+		cursor: pointer;
+	}
+
+	.legend-label:disabled {
+		cursor: default;
+		text-decoration: line-through;
+	}
+
+	.legend-label i {
 		width: 8px;
 		height: 8px;
 		border-radius: 2px;
 		display: inline-block;
+		flex-shrink: 0;
+	}
+
+	.legend-eye {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		appearance: none;
+		border: none;
+		background: transparent;
+		color: rgba(232, 234, 237, 0.55);
+		padding: 0.15rem;
+		border-radius: 3px;
+		cursor: pointer;
+		line-height: 0;
+	}
+
+	.legend-eye:hover:not(:disabled) {
+		color: #e8eaed;
+		background: rgba(255, 255, 255, 0.08);
+	}
+
+	.legend-eye.off {
+		color: rgba(232, 234, 237, 0.35);
+	}
+
+	.legend-eye:disabled {
+		opacity: 0.35;
+		cursor: not-allowed;
 	}
 
 	.canvas {

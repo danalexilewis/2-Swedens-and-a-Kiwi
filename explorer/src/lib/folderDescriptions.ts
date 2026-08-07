@@ -12,7 +12,7 @@ const DESCRIPTIONS: Record<string, FolderDescription> = {
 	},
 	book: {
 		title: 'Book',
-		body: `Core thesis material: argument map, claim ledger, chapter map, key concepts, shared-failure framing, and open questions. The spine of the book's structure.`
+		body: `Core thesis material: argument map, claim ledger, chapter map, relationship types, key concepts, shared-failure framing, and open questions. The spine of the book's structure.`
 	},
 	topics: {
 		title: 'Topics',
