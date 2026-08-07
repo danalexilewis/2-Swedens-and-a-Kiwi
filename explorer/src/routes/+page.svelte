@@ -251,6 +251,44 @@
 		return !hiddenFolders.has(folder);
 	}
 
+	function folderToKeepVisible(): string | null {
+		if (pinned?.kind === 'folder' && folders.includes(pinned.id)) {
+			return pinned.id;
+		}
+		if (hovered?.kind === 'folder' && folders.includes(hovered.id)) {
+			return hovered.id;
+		}
+		if (readingFolder && folders.includes(readingFolder)) {
+			return readingFolder;
+		}
+		if (pinned?.kind === 'node') {
+			const file = fileById.get(pinned.id);
+			if (file && folders.includes(file.folder)) return file.folder;
+		}
+		if (readingId) {
+			const file = fileById.get(readingId);
+			if (file && folders.includes(file.folder)) return file.folder;
+		}
+		const stillVisible = folders.find((f) => !hiddenFolders.has(f));
+		return stillVisible ?? folders[0] ?? null;
+	}
+
+	/** Hide every category except one (ring must keep a sector). */
+	function hideAllFolders() {
+		if (folders.length <= 1) return;
+		const keep = folderToKeepVisible();
+		if (!keep) return;
+		const next = new Set(folders.filter((f) => f !== keep));
+		for (const folder of next) {
+			if (!hiddenFolders.has(folder)) clearFocusForFolder(folder);
+		}
+		hiddenFolders = next;
+	}
+
+	function showAllFolders() {
+		hiddenFolders = new Set();
+	}
+
 	function pinTarget(next: FocusTarget) {
 		pinned = togglePin(pinned, next);
 	}
@@ -527,6 +565,25 @@
 			{/each}
 		</div>
 		<div class="legend" role="group" aria-label="Categories">
+			<button
+				type="button"
+				class="legend-bulk"
+				onclick={hideAllFolders}
+				disabled={visibleFolderCount <= 1}
+				title="Hide all categories except one"
+			>
+				Hide all
+			</button>
+			{#if hiddenFolders.size > 0}
+				<button
+					type="button"
+					class="legend-bulk"
+					onclick={showAllFolders}
+					title="Show every category"
+				>
+					Show all
+				</button>
+			{/if}
 			{#each folders as folder}
 				{@const visible = isFolderVisible(folder)}
 				{@const lastVisible = visible && visibleFolderCount <= 1}
@@ -817,8 +874,31 @@
 	.legend {
 		display: flex;
 		flex-wrap: wrap;
+		align-items: center;
 		gap: 0.35rem 0.55rem;
 		margin-left: auto;
+	}
+
+	.legend-bulk {
+		appearance: none;
+		border: 1px solid rgba(255, 255, 255, 0.12);
+		border-radius: 4px;
+		background: transparent;
+		color: rgba(232, 234, 237, 0.55);
+		font-size: 0.68rem;
+		padding: 0.2rem 0.45rem;
+		cursor: pointer;
+	}
+
+	.legend-bulk:hover:not(:disabled) {
+		color: #e8eaed;
+		background: rgba(255, 255, 255, 0.06);
+		border-color: rgba(255, 255, 255, 0.18);
+	}
+
+	.legend-bulk:disabled {
+		opacity: 0.35;
+		cursor: not-allowed;
 	}
 
 	.legend-item {
