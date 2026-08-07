@@ -12,7 +12,7 @@ A writing archive that helps move from:
 
 **raw thought → shared pattern → supported argument → chapter**
 
-It is not a database, a website, a citation manager, or investigative-journalism software.
+It is not a database, a citation manager, investigative-journalism platform, or publishing product. A local read-only explorer for navigating the archive is allowed.
 
 ## Where things go
 
@@ -32,6 +32,15 @@ It is not a database, a website, a citation manager, or investigative-journalism
 | `memoir-vault/` | Material better suited to a later memoir |
 | `legal-review/` | Claims about identifiable people needing care |
 | `archive/` | Material no longer in active use (preserve, don't delete) |
+| `explorer/` | Local canvas UI to browse the markdown archive |
+
+## Local explorer
+
+```bash
+cd explorer && pnpm install && pnpm dev
+```
+
+See [`explorer/README.md`](explorer/README.md).
 
 ## How to start a session
 
@@ -42,7 +51,7 @@ It is not a database, a website, a citation manager, or investigative-journalism
 
 ## Guardrails
 
-- Do not build a database, website, or application.
+- Do not build publishing software, a public site, or a second content home. A local read-only explorer is allowed.
 - Do not create one file for every minor thought.
 - Do not neutralize the author's anger.
 - Do not invent facts or citations.

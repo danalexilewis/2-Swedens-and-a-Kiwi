@@ -1,0 +1,112 @@
+@import 'tailwindcss';
+@import '@xyflow/svelte/dist/style.css';
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	background: #0f1115;
+	color: #e8eaed;
+	font-family: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+#sveltekit-body,
+body > div {
+	height: 100%;
+}
+
+.prose-md {
+	line-height: 1.55;
+	font-size: 0.95rem;
+}
+
+.prose-md h1,
+.prose-md h2,
+.prose-md h3,
+.prose-md h4 {
+	font-weight: 600;
+	margin: 1.25em 0 0.5em;
+	line-height: 1.25;
+}
+
+.prose-md h1 {
+	font-size: 1.5rem;
+}
+
+.prose-md h2 {
+	font-size: 1.25rem;
+}
+
+.prose-md h3 {
+	font-size: 1.1rem;
+}
+
+.prose-md p,
+.prose-md ul,
+.prose-md ol,
+.prose-md blockquote,
+.prose-md pre,
+.prose-md table {
+	margin: 0.75em 0;
+}
+
+.prose-md ul,
+.prose-md ol {
+	padding-left: 1.25rem;
+}
+
+.prose-md li {
+	margin: 0.25em 0;
+}
+
+.prose-md a {
+	color: #7eb6ff;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.prose-md code {
+	font-family: 'IBM Plex Mono', ui-monospace, monospace;
+	font-size: 0.85em;
+	background: rgba(255, 255, 255, 0.06);
+	padding: 0.1em 0.35em;
+	border-radius: 3px;
+}
+
+.prose-md pre {
+	background: rgba(0, 0, 0, 0.35);
+	padding: 0.85rem 1rem;
+	border-radius: 6px;
+	overflow-x: auto;
+}
+
+.prose-md pre code {
+	background: transparent;
+	padding: 0;
+}
+
+.prose-md blockquote {
+	border-left: 3px solid rgba(255, 255, 255, 0.2);
+	padding-left: 0.85rem;
+	color: rgba(232, 234, 237, 0.8);
+}
+
+.prose-md table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 0.9em;
+}
+
+.prose-md th,
+.prose-md td {
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	padding: 0.4rem 0.6rem;
+	text-align: left;
+}
+
+.prose-md hr {
+	border: none;
+	border-top: 1px solid rgba(255, 255, 255, 0.12);
+	margin: 1.5em 0;
+}
